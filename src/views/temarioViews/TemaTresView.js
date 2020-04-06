@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, Col, Row, Button } from 'reactstrap'
-import withAuth from '../../services/withAuth'
 import temaTresView from '../../assets/img/img-cursoQA/temaTresView.jpg'
 import Modal1 from './componentsExtras/modales'
 import {
@@ -29,6 +28,8 @@ class TemaDosView extends Component {
 
     this.setState({ modalIndex: modIndex })
   }
+
+
 
   render() {
     return (
@@ -129,7 +130,7 @@ class TemaDosView extends Component {
                   VENTAS OUT
                 </Button>
               </Col>
-              <Col xs="12 mt-4 centrado-fila">
+              <Col xs="12" className="centrado-fila mt-3">
                 <Nota
                   title1="Instrucción:"
                   content1="Dé click en cada boton para VER el contenido."
@@ -142,4 +143,4 @@ class TemaDosView extends Component {
     )
   }
 }
-export default withAuth(TemaDosView)
+export default TemaDosView
