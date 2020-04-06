@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
-import withAuth from '../../services/withAuth'
 import { Accordion, Button } from 'react-bootstrap'
 import {
   TablaControlCambios,
@@ -272,7 +271,7 @@ class TemaSeisView extends Component {
                   </div>
                 </Accordion>
               </Col>
-              <Col xs="12 mt-4 centrado-fila">
+              <Col xs="12" className="centrado-fila mt-3">
                 <Nota
                   title1="Instrucción:"
                   content1="Dé click en cada Lineamientos generales de la Metodología para VER el contenido."
@@ -285,4 +284,4 @@ class TemaSeisView extends Component {
     )
   }
 }
-export default withAuth(TemaSeisView)
+export default TemaSeisView
