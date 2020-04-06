@@ -6,19 +6,15 @@ import {
   Col,
   Row
 } from 'reactstrap';
-import withAuth from '../../services/withAuth';
-
-class RecapitulacionView extends Component {
 
 
-  
+class RecapitulacionView extends Component {  
   loading = () => <div className="animated fadeIn pt-1 text-center">Cargando...</div>
 
   render() {
 
     return (
       <div className="animated fadeIn">
-
         <Row>
           <Col>
             <Card>
@@ -35,5 +31,5 @@ class RecapitulacionView extends Component {
     );
   }
 }
-export default withAuth(RecapitulacionView)
+export default RecapitulacionView
 
