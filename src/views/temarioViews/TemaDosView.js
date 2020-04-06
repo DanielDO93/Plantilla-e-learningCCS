@@ -9,6 +9,7 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Card
 } from 'reactstrap'
 import withAuth from '../../services/withAuth'
 
@@ -46,6 +47,7 @@ class TemaDosView extends Component {
   render() {
     return (
       <div className="animated fadeIn pt-3">
+        <Card>
         <CardHeader className="text-left">
           <h3>Lineamientos generales de la Metodología</h3>
         </CardHeader>
@@ -487,6 +489,7 @@ class TemaDosView extends Component {
             </Col>
           </Row>
         </CardBody>
+        </Card>
       </div>
     )
   }
