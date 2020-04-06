@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
-
 import presentacion from '../../assets/img/img-cursoQA/presentacion.jpg'
 
 class PresentacionView extends Component {
@@ -27,7 +26,7 @@ class PresentacionView extends Component {
                       interacción.
                     </div>
                   </Col>
-                  <Col xs="12">
+                  <Col xs="12 mt-4">
                     <p className="text-center">
                       <img
                         src={presentacion}
