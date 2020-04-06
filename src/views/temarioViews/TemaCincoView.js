@@ -338,7 +338,9 @@ class TemaDosView extends Component {
                             2.1.3. El agente coloca su compromiso de acuerdo con
                             sus áreas de oportunidad detectadas en el monitoreo,
                             escucha la llamada en el minuto donde fue detectada,
-                            <b style={{color:"red"}}>(SOLO FODA) SOLO LOS OXXO´S</b>
+                            <b style={{ color: 'red' }}>
+                              (SOLO FODA) SOLO LOS OXXO´S
+                            </b>
                           </li>
                           <li>
                             2.1.4. El analista ingresa los comentarios del
@@ -372,7 +374,8 @@ class TemaDosView extends Component {
                         <ul>
                           <li>
                             2.2.1. Analista de calidad ingresa al aplicativo de
-                            CCS y selecciona la retroalimentación como “<b>FODA</b>”
+                            CCS y selecciona la retroalimentación como “
+                            <b>FODA</b>”
                           </li>
                           <li>
                             2.2.2. El analista retroalimenta conforme a las
@@ -412,6 +415,12 @@ class TemaDosView extends Component {
                     </Row>
                   </TabPane>
                 </TabContent>
+              </Col>
+              <Col xs="12 mt-4 centrado-fila">
+                <Nota
+                  title1="Instrucción:"
+                  content1="Dé click en cada Descripción del procedimiento para VER el contenido."
+                />
               </Col>
             </Row>
           </CardBody>
