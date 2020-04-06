@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
-import withAuth from '../../services/withAuth'
 import {
   TablaLineaHistorico,
   TablasImputables,
@@ -135,4 +134,4 @@ class TemaDosView extends Component {
     )
   }
 }
-export default withAuth(TemaDosView)
+export default TemaDosView
