@@ -3,12 +3,12 @@ import { Card, CardBody, CardHeader, Col, Row, Button } from 'reactstrap'
 import withAuth from '../../services/withAuth'
 import temaTresView from '../../assets/img/img-cursoQA/temaTresView.jpg'
 import Modal1 from './componentsExtras/modales'
-import { 
+import {
   TablaATC,
   TablaVentas,
-  TablasVentasOut
+  TablasVentasOut,
 } from './componentsExtras/tablas'
-
+import Nota from './componentsExtras/notasReferencia'
 class TemaDosView extends Component {
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
@@ -80,7 +80,6 @@ class TemaDosView extends Component {
                   </li>
                 </ul>
 
-                
                 {this.state.modal ? (
                   <Modal1
                     cerrar={() => this.toggleM()}
@@ -106,19 +105,35 @@ class TemaDosView extends Component {
                 ) : null}
               </Col>
               <Col xs="12" className="centrado-distribuido">
-                
-                  <Button color="dark" onClick={() => this.toggleM(1)}>
-                    ATC
-                  </Button>
-                
-                  <Button color="dark" onClick={() => this.toggleM(2)}>
-                    VENTAS
-                  </Button>
-               
-                  <Button color="dark" onClick={() => this.toggleM(3)}>
-                    VENTAS OUT
-                  </Button>
-               
+                <Button
+                  style={{ width: '90px', height: '58px' }}
+                  color="dark"
+                  onClick={() => this.toggleM(1)}
+                >
+                  ATC
+                </Button>
+
+                <Button
+                  style={{ width: '90px', height: '58px' }}
+                  color="dark"
+                  onClick={() => this.toggleM(2)}
+                >
+                  VENTAS
+                </Button>
+
+                <Button
+                  style={{ width: '90px' }}
+                  color="dark"
+                  onClick={() => this.toggleM(3)}
+                >
+                  VENTAS OUT
+                </Button>
+              </Col>
+              <Col xs="12 mt-4 centrado-fila">
+                <Nota
+                  title1="Instrucción:"
+                  content1="Dé click en cada boton para VER el contenido."
+                />
               </Col>
             </Row>
           </CardBody>
