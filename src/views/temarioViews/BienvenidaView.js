@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import { CardBody, CardHeader, Col, Row, CardText } from 'reactstrap'
+import { CardBody, CardHeader, Col, Row,  } from 'reactstrap'
 import withAuth from '../../services/withAuth'
 import logo from '../../assets/img/brand/logo.png'
-
-
 
 class BienvenidaView extends Component {
   loading = () => (
@@ -13,7 +11,6 @@ class BienvenidaView extends Component {
   render() {
     return (
       <div className="animated fadeIn">
-        
         <Row>
           <Col xs="12">
             <CardHeader className="text-center">
@@ -26,11 +23,9 @@ class BienvenidaView extends Component {
                 alt="Logo CCS"
                 className="img-fluid"
               />
-            </CardBody>
-            <CardText className="text-center">
-              <h3>SISTEMA DE GESTIÓN CCS</h3>
+              <h1>SISTEMA DE GESTIÓN CCS</h1>
               <h2>Metodología de Calidad</h2>
-            </CardText>
+            </CardBody>
           </Col>
         </Row>
       </div>
