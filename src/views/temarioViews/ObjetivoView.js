@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
-import withAuth from '../../services/withAuth';
+
 import Objetivo from '../../assets/img/img-cursoQA/objetivo.jpg';
 
 class ObjetivoView extends Component {
@@ -48,4 +48,4 @@ class ObjetivoView extends Component {
     )
   }
 }
-export default withAuth(ObjetivoView)
+export default ObjetivoView
