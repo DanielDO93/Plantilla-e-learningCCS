@@ -20,7 +20,7 @@ class TemaDosView extends Component {
       modal: false,
     }
 
-    this.toggle = this.toggleM.bind(this)
+    this.toggleM = this.toggleM.bind(this)
   }
   toggleM(modIndex) {
     this.setState(prevState => ({
