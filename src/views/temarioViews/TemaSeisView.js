@@ -10,6 +10,7 @@ import {
   TablaMisteries,
 } from './componentsExtras/tablas'
 import temaTresView from '../../assets/img/img-cursoQA/temaTresView.jpg'
+import Nota from './componentsExtras/notasReferencia'
 
 class TemaSeisView extends Component {
   loading = () => (
@@ -270,6 +271,12 @@ class TemaSeisView extends Component {
                     </Accordion.Collapse>
                   </div>
                 </Accordion>
+              </Col>
+              <Col xs="12 mt-4 centrado-fila">
+                <Nota
+                  title1="Instrucción:"
+                  content1="Dé click en cada Lineamientos generales de la Metodología para VER el contenido."
+                />
               </Col>
             </Row>
           </CardBody>
