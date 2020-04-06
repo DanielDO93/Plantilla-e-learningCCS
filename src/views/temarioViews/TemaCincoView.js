@@ -13,7 +13,6 @@ import {
   Button,
 } from 'reactstrap'
 import classnames from 'classnames'
-import withAuth from '../../services/withAuth'
 import Nota from './componentsExtras/notasReferencia'
 import { TablaTipoMotivo, TablaRetro } from './componentsExtras/tablas'
 import Modal1 from './componentsExtras/modales'
@@ -149,12 +148,12 @@ class TemaDosView extends Component {
                         <ul>
                           <li>
                             1.1. El analista ingresa al sistema ACD y elige
-                            llamada de manera aleatoria
+                            llamada de manera aleatoria.
                           </li>
                           <li>1.2. Escucha la llamada</li>
                           <li>
                             1.3. En paralelo ingresa al aplicativo de CCS y en
-                            el apartado de calidad selecciona “Monitoreo”
+                            el apartado de calidad selecciona “Monitoreo”.
                           </li>
                           <li>
                             1.4. Selecciona la guía de acuerdo con la campaña y
@@ -185,7 +184,6 @@ class TemaDosView extends Component {
                             FCR, la gestión del agente, imputable (revisar tabla
                             1 “Imputables”), la tipificación y el ruido o
                             <span style={{ whiteSpace: 'nowrap' }}>
-                              {' '}
                               ambiente.
                               <Nota
                                 title1="1"
@@ -220,7 +218,7 @@ class TemaDosView extends Component {
                                       registrar de forma manual.
                                     </li>
                                     <li>
-                                      • Dentro de la guía el existe el rubro
+                                      Dentro de la guía el existe el rubro
                                       “N/A” (No aplica), este se considera para
                                       los casos en el que elemento a verificar
                                       no se encuentre durante la llamada por
@@ -235,31 +233,31 @@ class TemaDosView extends Component {
                                       Cuando el analista detecte un error fatal
                                       durante la llamada, marca la casilla de
                                       “Error fatal” dentro del aplicativo y en
-                                      automático la calificación será{' '}
+                                      automático la calificación será
                                       <b>cero</b>.
                                     </li>
                                     <li>
                                       El analista deberá colocar el minuto donde
-                                      se cometió el error fatal
+                                      se cometió el error fatal.
                                     </li>
                                     <li>
                                       Una vez ingresado el comentario con la
                                       descripción del error, selecciona la
-                                      opción de “Alerta Operativa”{' '}
+                                      opción de “Alerta Operativa”.
                                     </li>
                                     <li>
                                       Guarda monitoreo y en automático envía
-                                      “Alerta Operativa”
+                                      “Alerta Operativa”.
                                     </li>
                                     <li>
                                       Analista notifica a supervisor y
                                       coordinador de Operaciones y determinan
-                                      sanción.{' '}
+                                      sanción.
                                     </li>
                                     <li>
                                       Una vez aplicada sanción el analista de
                                       calidad dará retroalimentación bajo el
-                                      método de FODA
+                                      método de FODA.
                                     </li>
                                   </ol>
                                 </div>
@@ -268,11 +266,10 @@ class TemaDosView extends Component {
                           />
                         ) : null}
                       </div>
-                      <Col xs="12 centrado-distribuido">
+                      <Col xs="12 " className="centrado-distribuido">
                         <Button color="dark" onClick={() => this.toggleM(5)}>
                           Excepciones
                         </Button>
-
                         <Button color="dark" onClick={() => this.toggleM(6)}>
                           Error Fatal
                         </Button>
@@ -281,10 +278,9 @@ class TemaDosView extends Component {
                   </TabPane>
                   <TabPane tabId="2">
                     <Row>
-                      <Col xs="12 centrado-fila">
+                      <Col xs="12 " className="centrado-fila">
                         <Col xs="6">
                           <p>
-                            {' '}
                             Para poder realizar la retroalimentación el agente
                             deberá pausarse y se notifica a través del correo a
                             las partes correspondientes (operaciones, command
@@ -304,7 +300,7 @@ class TemaDosView extends Component {
                           />
                         </Col>
                       </Col>
-                      <Col sm="12 mt-4">
+                      <Col sm="12 " className="mt-4">
                         <div className="centrado-fila ">
                           <TablaRetro />
                         </div>
@@ -320,7 +316,7 @@ class TemaDosView extends Component {
                         </p>
                         <p>
                           El tiempo máximo para concluir esta retroalimentación
-                          es de 24 horas.{' '}
+                          es de 24 horas.
                         </p>
                         <ul>
                           <li>
@@ -416,7 +412,7 @@ class TemaDosView extends Component {
                   </TabPane>
                 </TabContent>
               </Col>
-              <Col xs="12 mt-4 centrado-fila">
+              <Col xs="12" className="centrado-fila mt-3">
                 <Nota
                   title1="Instrucción:"
                   content1="Dé click en cada Descripción del procedimiento para VER el contenido."
@@ -429,4 +425,4 @@ class TemaDosView extends Component {
     )
   }
 }
-export default withAuth(TemaDosView)
+export default TemaDosView
