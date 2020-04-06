@@ -11,10 +11,7 @@ import {
   NavLink,
   Card
 } from 'reactstrap';
-import withAuth from '../../services/withAuth';
-
 import classnames from 'classnames';
-
 import { Accordion, Button } from 'react-bootstrap';
 import {
   TablaInBoundGuia,
@@ -30,7 +27,6 @@ import {
   TablaWhPlantilla,
   TablaWhCriterios,
   TablaWhGuia
-
 } from './componentsExtras/tablas';
 
 import Nota from './componentsExtras/notasReferencia'
@@ -489,7 +485,7 @@ class TemaDosView extends Component {
                 </div>
               </Accordion>
             </Col>
-            <Col xs="12 mt-4">
+            <Col xs="12" className="centrado-fila mt-3">
             <Nota
                   title1="Instrucción:"
                   content1="Dé click en cada Lineamento para VER el contenido."
@@ -502,4 +498,4 @@ class TemaDosView extends Component {
     )
   }
 }
-export default withAuth(TemaDosView)
+export default TemaDosView
