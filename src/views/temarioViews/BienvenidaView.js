@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import { CardBody, CardHeader, Col, Row,  } from 'reactstrap'
-import withAuth from '../../services/withAuth'
+
 import logo from '../../assets/img/brand/logo.png'
 
 class BienvenidaView extends Component {
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
   )
-
   render() {
     return (
       <div className="animated fadeIn">
@@ -32,4 +31,4 @@ class BienvenidaView extends Component {
     )
   }
 }
-export default withAuth(BienvenidaView)
+export default BienvenidaView
