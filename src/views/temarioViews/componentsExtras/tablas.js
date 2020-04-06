@@ -1682,7 +1682,7 @@ class TablaWhGuia extends Component {
 class TablaWhCriterios extends Component {
   render() {
     return (
-      <Col xs="12">
+      <div>
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
@@ -2060,7 +2060,7 @@ class TablaWhCriterios extends Component {
             </tr>
           </tbody>
         </table>
-      </Col>
+      </div>
     )
   }
 }
