@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
-import Carousel from 'react-bootstrap/Carousel';
-import temaUno from '../../assets/img/img-cursoQA/temaUno.png';
-import Nota from './componentsExtras/notasReferencia';
+import React, { Component } from 'react'
+import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
+import Carousel from 'react-bootstrap/Carousel'
+import temaUno from '../../assets/img/img-cursoQA/temaUno.png'
+import Nota from './componentsExtras/notasReferencia'
 
 class TemaUnoView extends Component {
   loading = () => (
@@ -136,10 +136,10 @@ class TemaUnoView extends Component {
                 </Carousel>
               </Col>
               <Col xs="12 centrado-fila mt-3">
-              <Nota
-               title1="Iinstrucción:"
-               content1="Dé click en la flecha del slide para VER el contenido."
-             />
+                <Nota
+                  title1="Instrucción:"
+                  content1="Dé click en la flecha del slide para VER el contenido."
+                />
               </Col>
             </Row>
           </CardBody>
