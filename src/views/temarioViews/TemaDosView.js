@@ -10,12 +10,12 @@ import {
   NavItem,
   NavLink,
   Card
-} from 'reactstrap'
-import withAuth from '../../services/withAuth'
+} from 'reactstrap';
+import withAuth from '../../services/withAuth';
 
-import classnames from 'classnames'
+import classnames from 'classnames';
 
-import { Accordion, Button } from 'react-bootstrap'
+import { Accordion, Button } from 'react-bootstrap';
 import {
   TablaInBoundGuia,
   TablaInBoundRubros,
@@ -31,7 +31,9 @@ import {
   TablaWhCriterios,
   TablaWhGuia
 
-} from './componentsExtras/tablas'
+} from './componentsExtras/tablas';
+
+import Nota from './componentsExtras/notasReferencia'
 
 class TemaDosView extends Component {
   loading = () => (
@@ -486,6 +488,12 @@ class TemaDosView extends Component {
                   </Accordion.Collapse>
                 </div>
               </Accordion>
+            </Col>
+            <Col xs="12 mt-4">
+            <Nota
+                  title1="Instrucción:"
+                  content1="Dé click en cada Lineamento para VER el contenido."
+                />
             </Col>
           </Row>
         </CardBody>
