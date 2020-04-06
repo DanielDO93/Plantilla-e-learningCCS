@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
-import withAuth from '../../services/withAuth'
-import Carousel from 'react-bootstrap/Carousel'
-import temaUno from '../../assets/img/img-cursoQA/temaUno.png'
+import React, { Component } from 'react';
+import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import temaUno from '../../assets/img/img-cursoQA/temaUno.png';
+import Nota from './componentsExtras/notasReferencia';
 
 class TemaUnoView extends Component {
   loading = () => (
@@ -23,7 +23,7 @@ class TemaUnoView extends Component {
                   <Carousel.Item className="pl-4">
                     <Row>
                       <Col xs="12">
-                        <p className="paddingCarousel">
+                        <div className="paddingCarousel">
                           <ul className="pl-2">
                             <li>
                               <b>In Bound</b>: Transacciones de entrada que
@@ -56,19 +56,18 @@ class TemaUnoView extends Component {
                               cliente.
                             </li>
                           </ul>
-                          
-                        </p>
+                        </div>
                         <img
-                            src={temaUno}
-                            style={{ width: 100 }}
-                            alt="temaUno"
-                            className="img-fluid float-right"
-                          />
+                          src={temaUno}
+                          style={{ width: 100 }}
+                          alt="temaUno"
+                          className="img-fluid float-right"
+                        />
                       </Col>
                     </Row>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <p className="paddingCarousel">
+                    <div className="paddingCarousel">
                       <ul>
                         <li>
                           <b>Monitoreo</b>: Evaluación de una llamada con el
@@ -96,16 +95,16 @@ class TemaUnoView extends Component {
                           de una realidad o un conjunto de interacciones.
                         </li>
                       </ul>
-                    </p>
+                    </div>
                     <img
-                            src={temaUno}
-                            style={{ width: 100 }}
-                            alt="temaUno"
-                            className="img-fluid  float-right"
-                          />
+                      src={temaUno}
+                      style={{ width: 100 }}
+                      alt="temaUno"
+                      className="img-fluid  float-right"
+                    />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <p className="paddingCarousel">
+                    <div className="paddingCarousel">
                       <ul>
                         <li>
                           <b>AHT</b>: Tiempo promedio de relación con el cliente
@@ -126,15 +125,22 @@ class TemaUnoView extends Component {
                           sea por imagen y/o económicamente
                         </li>
                       </ul>
-                    </p>
+                    </div>
                     <img
-                            src={temaUno}
-                            style={{ width: 100 }}
-                            alt="temaUno"
-                            className="img-fluid float-right "
-                          />
+                      src={temaUno}
+                      style={{ width: 100 }}
+                      alt="temaUno"
+                      className="img-fluid float-right "
+                    />
                   </Carousel.Item>
                 </Carousel>
+              </Col>
+              <Col xs="12 centrado-fila mt-3">
+              <Nota
+               title1="Iinstrucción:"
+               content1="Dé click en la flecha del slide para VER el contenido."
+             />
+              
               </Col>
             </Row>
           </CardBody>
@@ -143,4 +149,4 @@ class TemaUnoView extends Component {
     )
   }
 }
-export default withAuth(TemaUnoView)
+export default TemaUnoView
