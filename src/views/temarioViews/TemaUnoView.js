@@ -140,7 +140,6 @@ class TemaUnoView extends Component {
                title1="Iinstrucción:"
                content1="Dé click en la flecha del slide para VER el contenido."
              />
-              
               </Col>
             </Row>
           </CardBody>
