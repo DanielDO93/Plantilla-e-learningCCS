@@ -135,7 +135,7 @@ class TemaUnoView extends Component {
                   </Carousel.Item>
                 </Carousel>
               </Col>
-              <Col xs="12 centrado-fila mt-3">
+              <Col xs="12" className="centrado-fila mt-3">
                 <Nota
                   title1="Instrucción:"
                   content1="Dé click en la flecha del slide para VER el contenido."
