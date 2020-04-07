@@ -176,11 +176,13 @@ td,th{
 
 	.btnAct:active {
 		transform: translateY(4px);
+		color: #b0afb4;
 	
 	  }
 
 	  .btnFocus:focus {
-		background-color: yellow;
+		margin: 16px 0;
+		display: block;
 	}
 
 
