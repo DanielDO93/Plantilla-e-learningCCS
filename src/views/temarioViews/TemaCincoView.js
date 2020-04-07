@@ -64,7 +64,7 @@ class TemaDosView extends Component {
                         (classnames({
                           active: this.state.activeTab === '1',
                         }),
-                        'btn-dark btn text-light')
+                        'btn-dark btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('1')
@@ -84,7 +84,7 @@ class TemaDosView extends Component {
                         (classnames({
                           active: this.state.activeTab === '2',
                         }),
-                        'btn-dark btn text-light')
+                        'btn-dark btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('2')
@@ -103,7 +103,7 @@ class TemaDosView extends Component {
                         (classnames({
                           active: this.state.activeTab === '3',
                         }),
-                        'btn-dark btn text-light')
+                        'btn-dark btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('3')
@@ -122,7 +122,7 @@ class TemaDosView extends Component {
                         (classnames({
                           active: this.state.activeTab === '4',
                         }),
-                        'btn-dark btn text-light')
+                        'btn-dark btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('4')
@@ -266,11 +266,11 @@ class TemaDosView extends Component {
                           />
                         ) : null}
                       </div>
-                      <Col xs="12 " className="centrado-distribuido">
-                        <Button color="dark" onClick={() => this.toggleM(5)}>
+                      <Col xs="12 " className="centrado-distribuido ">
+                        <Button className="btnAct" color="dark" onClick={() => this.toggleM(5)}>
                           Excepciones
                         </Button>
-                        <Button color="dark" onClick={() => this.toggleM(6)}>
+                        <Button className="btnAct" color="dark" onClick={() => this.toggleM(6)}>
                           Error Fatal
                         </Button>
                       </Col>
