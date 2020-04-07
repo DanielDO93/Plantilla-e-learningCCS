@@ -107,6 +107,7 @@ class TemaDosView extends Component {
               </Col>
               <Col xs="12" className="centrado-distribuido">
                 <Button
+                  className="btnAct"
                   style={{ width: '90px', height: '58px' }}
                   color="dark"
                   onClick={() => this.toggleM(1)}
@@ -115,6 +116,7 @@ class TemaDosView extends Component {
                 </Button>
 
                 <Button
+                className="btnAct"
                   style={{ width: '90px', height: '58px' }}
                   color="dark"
                   onClick={() => this.toggleM(2)}
@@ -123,6 +125,7 @@ class TemaDosView extends Component {
                 </Button>
 
                 <Button
+                className="btnAct"
                   style={{ width: '90px' }}
                   color="dark"
                   onClick={() => this.toggleM(3)}
