@@ -70,7 +70,7 @@ class TemaDosView extends Component {
                                   (classnames({
                                     active: this.state.activeTab === '1',
                                   }),
-                                  'btn-primary btn text-light')
+                                  'btn-primary btn btnAct text-light')
                                 }
                                 onClick={() => {
                                   this.toggle('1')
@@ -358,7 +358,7 @@ class TemaDosView extends Component {
                     </Row>
                   </Accordion.Collapse>
                 </div>
-                <Col className="btn-dark btnFocus " style={{ padding: '0' }}>
+                <Col className="btn-dark  " style={{ padding: '0' }}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="3" className="">
                     <span className="text-light btnAct ">WhatsApp y Mails</span>
                   </Accordion.Toggle>
