@@ -48,7 +48,7 @@ class TemaDosView extends Component {
                   className="img-fluid bordeImagen"
                 />
               </Col>
-              <Col xs="12">
+              <Col xs="12" className="text-justify">
                 <p>Para campañas nuevas:</p>
                 <ul>
                   <li>
