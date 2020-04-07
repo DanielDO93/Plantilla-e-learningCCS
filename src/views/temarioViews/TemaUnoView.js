@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
 import Carousel from 'react-bootstrap/Carousel'
-import temaUno from '../../assets/img/img-cursoQA/temaUno.png'
 import Nota from './componentsExtras/notasReferencia'
 
 class TemaUnoView extends Component {
@@ -22,7 +21,7 @@ class TemaUnoView extends Component {
                 <Carousel className="bg-dark pt-2 " interval={50000000}>
                   <Carousel.Item className="pl-4">
                     <Row>
-                      <Col xs="12">
+                      <Col xs="12" className="mb-4">
                         <div className="paddingCarousel">
                           <ul className="pl-2">
                             <li>
@@ -57,17 +56,14 @@ class TemaUnoView extends Component {
                             </li>
                           </ul>
                         </div>
-                        <img
-                          src={temaUno}
-                          style={{ width: 100 }}
-                          alt="temaUno"
-                          className="img-fluid float-right"
-                        />
+                       
                       </Col>
                     </Row>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <div className="paddingCarousel">
+                   <Row>
+                     <Col xs="12" className="mb-4">
+                     <div className="paddingCarousel">
                       <ul>
                         <li>
                           <b>Monitoreo</b>: Evaluación de una llamada con el
@@ -96,15 +92,14 @@ class TemaUnoView extends Component {
                         </li>
                       </ul>
                     </div>
-                    <img
-                      src={temaUno}
-                      style={{ width: 100 }}
-                      alt="temaUno"
-                      className="img-fluid  float-right"
-                    />
+                     </Col>
+                   </Row>
+                   
                   </Carousel.Item>
                   <Carousel.Item>
-                    <div className="paddingCarousel">
+                    <Row>
+                      <Col xs="12" className="mb-4">
+                      <div className="paddingCarousel">
                       <ul>
                         <li>
                           <b>AHT</b>: Tiempo promedio de relación con el cliente
@@ -126,12 +121,9 @@ class TemaUnoView extends Component {
                         </li>
                       </ul>
                     </div>
-                    <img
-                      src={temaUno}
-                      style={{ width: 100 }}
-                      alt="temaUno"
-                      className="img-fluid float-right "
-                    />
+                      </Col>
+                    </Row>
+                    
                   </Carousel.Item>
                 </Carousel>
               </Col>
