@@ -186,4 +186,16 @@ td,th{
 	}
 
 
+	@media (max-width: 506px) and (min-width:0px) {
+		#TConcentrado {
+		 width:100% ;
+		}
+	  }
+	  @media (max-width: 606px) and (min-width:0px) {
+		#TablaAnexos {
+		 width:100% ;
+		}
+	  }
+
+	  
 	
