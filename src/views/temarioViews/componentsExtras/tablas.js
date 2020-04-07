@@ -2983,7 +2983,7 @@ class TablaConcentrado extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <div >
+        <div id="TConcentrado"  className="centrado-fila">
           <table className="table table-bordered table-responsive">
             <tbody>
               <tr>
@@ -3031,7 +3031,7 @@ class TablaMisteries extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <div style={{width:"88%"}}>
+        <div style={{width:"85%"}}  className="centrado-fila">
           <table className="table table-bordered table-responsive">
             <tbody>
               <tr>
@@ -3099,7 +3099,7 @@ class TablaAnexos extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <div style={{width:""}}>
+        <div id="TablaAnexos" >
           <table className="table table-bordered table-responsive">
             <thead>
               <tr>
