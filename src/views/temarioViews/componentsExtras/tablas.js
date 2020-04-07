@@ -3031,7 +3031,7 @@ class TablaMisteries extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <div style={{width:"88%",border:"solid 1px"}}>
+        <div style={{width:"88%"}}>
           <table className="table table-bordered table-responsive">
             <tbody>
               <tr>
@@ -3099,7 +3099,7 @@ class TablaAnexos extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <div style={{width:"100%"}}>
+        <div style={{width:""}}>
           <table className="table table-bordered table-responsive">
             <thead>
               <tr>
