@@ -38,7 +38,7 @@ class TemaSeisView extends Component {
                     <Accordion.Collapse eventKey="0">
                       <div className="mx-3">
                         <Row>
-                          <Col xs="12">
+                          <Col xs="12" className="text-justify">
                             <ul className="mt-3">
                               <li>
                                 Una vez que el supervisor de operaciones recibe
@@ -91,7 +91,7 @@ class TemaSeisView extends Component {
                     <Accordion.Collapse eventKey="1">
                       <div className="mx-3">
                         <Row>
-                          <Col xs="12">
+                          <Col xs="12" className="text-justify">
                             <ul className="mt-3">
                               <li>
                                 Todos los resultados deben estar en el mismo
@@ -161,7 +161,7 @@ class TemaSeisView extends Component {
                     <Accordion.Collapse eventKey="2">
                       <div className="mx-3">
                         <Row>
-                          <Col xs="12">
+                          <Col xs="12" className="text-justify">
                             <p className="mt-3">
                               El reporte tripartita proporciona información
                               sobre el desempeño obtenido durante un tiempo
@@ -209,7 +209,7 @@ class TemaSeisView extends Component {
                       <div className="mx-3">
                         <Row>
                           <Col xs="12" className="centrado-fila mt-3">
-                            <Col xs="12" sm="6" md="7" xl="8">
+                            <Col xs="12" sm="6" md="7" xl="8" className="text-justify">
                               <ul>
                                 <li>
                                   Supervisor de calidad auditara las
