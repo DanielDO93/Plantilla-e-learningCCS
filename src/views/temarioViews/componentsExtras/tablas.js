@@ -4,101 +4,103 @@ import { Col, Row } from 'reactstrap'
 class TablaInBoundGuia extends Component {
   render() {
     return (
-      <Col xs="12">
-        <table className="table table-bordered  ">
-          <thead class="">
-            <tr>
-              <th className="bg-danger text-white" scope="col">
-                CAMPAÑA IN
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                RUBRO
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                %
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <b>INTRODUCCIÓN</b>
-              </td>
-              <td>RUBRO</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td rowspan="5" className="align-middle">
-                <b>PROCESO</b>
-              </td>
-              <td>SALUDO / IDENTIFICA AL CLIENTE</td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>SONDEO</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>TIPIFICACIÓN</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>INFORMACIÓN Y ASERTIVIDAD</td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>MENCIÓN TELEVIP, POSTPAGO Y WHATSAPP</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td rowspan="6" className="align-middle">
-                <b> HABILIDAD DE COMUNICACIÓN</b>
-              </td>
-              <td>CONTROL DE LLAMADA</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>CORTESÍA Y EMPATÍA</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>ESCUCHA ACTIVA</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>VOZ Y VOCABULARIO</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>CAPTURA / USO DE RECURSOS</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>AHT (TIEMPOS MUERTOS) / AGRADECER TIEMPOS DE ESPERA </td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td rowspan="3" className="align-middle ">
-                <b>DESPEDIDA</b>
-              </td>
-              <td>DESPEDIDA</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>AYUDA ADICIONAL</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>TRANSFIERE A ENCUESTA</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td colspan="2">TOTAL</td>
-              <td>100%</td>
-            </tr>
-          </tbody>
-        </table>
-      </Col>
+      <div>
+        <Col xs="12">
+          <table className="table table-bordered  ">
+            <thead class="">
+              <tr>
+                <th className="bg-danger text-white" scope="col">
+                  CAMPAÑA IN
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  RUBRO
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  %
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <b>INTRODUCCIÓN</b>
+                </td>
+                <td>RUBRO</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td rowspan="5" className="align-middle">
+                  <b>PROCESO</b>
+                </td>
+                <td>SALUDO / IDENTIFICA AL CLIENTE</td>
+                <td>15%</td>
+              </tr>
+              <tr>
+                <td>SONDEO</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>TIPIFICACIÓN</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>INFORMACIÓN Y ASERTIVIDAD</td>
+                <td>15%</td>
+              </tr>
+              <tr>
+                <td>MENCIÓN TELEVIP, POSTPAGO Y WHATSAPP</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td rowspan="6" className="align-middle">
+                  <b> HABILIDAD DE COMUNICACIÓN</b>
+                </td>
+                <td>CONTROL DE LLAMADA</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>CORTESÍA Y EMPATÍA</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>ESCUCHA ACTIVA</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>VOZ Y VOCABULARIO</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>CAPTURA / USO DE RECURSOS</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>AHT (TIEMPOS MUERTOS) / AGRADECER TIEMPOS DE ESPERA </td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td rowspan="3" className="align-middle ">
+                  <b>DESPEDIDA</b>
+                </td>
+                <td>DESPEDIDA</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>AYUDA ADICIONAL</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>TRANSFIERE A ENCUESTA</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td colspan="2">TOTAL</td>
+                <td>100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </Col>
+      </div>
     )
   }
 }
@@ -106,390 +108,416 @@ class TablaInBoundGuia extends Component {
 class TablaInBoundRubros extends Component {
   render() {
     return (
-      <table className=" table table-bordered table-responsive">
-        <thead className="bg-danger text-white">
-          <tr>
-            <th colspan="5" scope="col">
-              Campaña IN
-            </th>
-          </tr>
-          <tr>
-            <th colspan="5" scope="col">
-              INTRODUCCIÓN
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">CONCEPTO</th>
-            <td>DEFINICIÓN</td>
-            <td>NO</td>
-            <td>SI</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              SALUDO
-            </th>
-            <td>
-              Agente, debe mencionar frase de cortesía, nombre de la empresa a
-              la que representa, su nombre con primer apellido. (Introducción)
-            </td>
-            <td>
-              ( 0 ) Agente, no menciona frase de cortesía, no proporcionó nombre
-              de la empresa a la que representa, no indica su nombre y/o
-              apellido.
-            </td>
-            <td>
-              ( 1 ) Agente, se presenta mencionando frase de cortesía, nombre de
-              la empresa a la que representa e indica su nombre con primer
-              apellido.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              IDENTIFICA AL CLIENTE
-            </th>
-            <td>
-              Agente, debe identificar al usuario preguntando ¿Con quién tiene
-              gusto?, personalizar mínimo 3 veces durante la llamada.
-            </td>
-            <td>
-              ( 0 ) Agente, no preguntó ¿Con quién tengo gusto?, no personalizó
-              durante la llamada con nombre o apellido.
-            </td>
-            <td>
-              ( 1 ) Agente, identifica al usuario preguntando ¿Con quién tengo
-              gusto?, posteriormente personaliza la llamada con nombre o
-              apellido mínimo 3 veces durante la llamada.
-            </td>
-          </tr>
-          <tr>
-            <th colspan="5" scope="row" className="bg-danger text-white">
-              INFORMACIÓN
-            </th>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">CONCEPTO</th>
-            <td>DEFINICIÓN</td>
-            <td>NO</td>
-            <td>SI</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              SONDEO{' '}
-            </th>
-            <td>
-              Agente, debe hacer preguntas útiles de acuerdo a las necesidades
-              del usuario.{' '}
-            </td>
-            <td>
-              ( 0 ) Agente, no hace preguntas útiles de acuerdo a las
-              necesidades del usuario.{' '}
-            </td>
-            <td>
-              ( 14 ) Agente, hace preguntas útiles de acuerdo a las necesidades
-              del usuario.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              INFORMACIÓN
-            </th>
-            <td>
-              Agente, debe mencionar la información completa, correcta y
-              necesaria al usuario.
-            </td>
-            <td>
-              ( 0 ) Agente, no menciona la información completa, correcta y
-              necesaria al usuario.
-            </td>
-            <td>
-              ( 15 ) Agente, menciona la información completa, correcta y
-              necesaria al usuario.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              ASERTIVIDAD
-            </th>
-            <td>
-              Agente, debe transmitir la información clara, correcta e inmediata
-              al usuario.
-            </td>
-            <td>
-              ( 10 ) Agente, no transmite la información clara, correcta e
-              inmediata al usuario.
-            </td>
-            <td>
-              ( 10 ) Agente, responde la información clara, correcta e inmediata
-              al usuario.
-            </td>
-          </tr>
-          <tr>
-            <th colspan="5" scope="row" className="bg-danger text-white">
-              PROCESOS
-            </th>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">CONCEPTO</th>
-            <td>DEFINICIÓN</td>
-            <td>NO</td>
-            <td>SI</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              APEGO A PROCESO / POLÍTICAS
-            </th>
-            <td>
-              Agente, sigue procesos establecidos por Viaducto Bicentenario.{' '}
-            </td>
-            <td>
-              ( 0 ) Agente, no se apega a los procesos establecidos por Viaducto
-              Bicentenario.
-            </td>
-            <td>
-              ( 12 ) Agente, sigue procesos establecidos por Viaducto
-              Bicentenario.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              CAPTURA CORRECTA
-            </th>
-            <td>
-              Agente, debe capturar de acuerdo a lo que el usuario indica de
-              forma clara y coherente, sin errores ortográficos.
-            </td>
-            <td>
-              ( 0 ) Agente, no captura de acuerdo a lo que el usuario indica de
-              forma clara y coherente, tiene errores ortográficos.
-            </td>
-            <td>
-              ( 10 ) Agente, captura de acuerdo a lo que el usuario indica de
-              forma clara y coherente, sin errores ortográficos.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              TIPIFICACIÓN
-            </th>
-            <td>
-              Agente, debe tipificar de acuerdo al tipo de llamada y en tiempo.{' '}
-            </td>
-            <td>
-              ( 0 ) Agente, no tipifica de acuerdo al tipo de llamada y/o en
-              tiempo.{' '}
-            </td>
-            <td>
-              ( 4 ) Agente, tipifica de acuerdo al tipo de llamada y en tiempo.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th colspan="5" scope="row" className="bg-danger text-white">
-              HABILIDAD DE COMUNICACIÓN
-            </th>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">CONCEPTO</th>
-            <td>DEFINICIÓN</td>
-            <td>NO</td>
-            <td>SI</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              AGRADECE TIEMPO DE ESPERA
-            </th>
-            <td>
-              Agente, debe solicitar, justificar y agradecer tiempos de espera
-              cada 40 segundos.
-            </td>
-            <td>
-              ( 0 ) Agente, no solicita, justifica y agradece tiempos de espera
-              cada 40 segundos.
-            </td>
-            <td>
-              ( 5 ) Agente, solicita, justifica y agradece tiempos de espera
-              cada 40 segundos.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              AGRADECE TIEMPO DE ESPERA
-            </th>
-            <td>
-              Agente, debe solicitar, justificar y agradecer tiempos de espera
-              cada 40 segundos.
-            </td>
-            <td>
-              ( 0 ) Agente, no solicita, justifica y agradece tiempos de espera
-              cada 40 segundos.
-            </td>
-            <td>
-              ( 5 ) Agente, solicita, justifica y agradece tiempos de espera
-              cada 40 segundos.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              CORTESÍA Y EMPATÍA
-            </th>
-            <td>
-              Agente, se muestra cortes utilizando frases de cortesía, no es
-              sarcástico y no interrumpe al usuario.
-            </td>
-            <td>
-              ( 0 ) Agente, no es cortes, no utiliza frases de cortesía, es
-              sarcástico e interrumpe al usuario.{' '}
-            </td>
-            <td>
-              ( 5 ) Agente, es cortes utilizando frases de cortesía, no es
-              sarcástico y no interrumpe al usuario.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              ESCUCHA Y COMPRENDE
-            </th>
-            <td>
-              Agente, debe estar atento a las dudas e información del usuario,
-              evita solicitar información ya proporcionada y brinda una
-              respuesta correta.{' '}
-            </td>
-            <td>
-              ( 0 ) Agente, no esta atento a las dudas del usuario, solicita la
-              información ya proporcionda y/o brinda una respuesta ajena a la
-              pregunta del usuario.{' '}
-            </td>
-            <td>
-              ( 5 ) Agente, atiende las dudas y preguntas del usuario, no
-              solicita información ya proporcionada brindando una respuesta
-              correta.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              AHT
-            </th>
-            <td>
-              Agente, debe contestar antes del segundo 03, no debe prolongar la
-              llamada innecesariamente con tiempos injustificados y no debe
-              brindar información innecesaria.
-            </td>
-            <td>
-              ( 5 )<br />
-              Agente, deja línea abierta, tiene tiempos injustificados, brinda
-              información innecesaria.
-            </td>
-            <td>
-              ( 5 )<br />
-              Agente, contesta antes del segundo 03, prolongar la llamada
-              innecesariamente con tiempos injustificados y no brinda
-              información innecesaria.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              CONTROL DE LLAMADA
-            </th>
-            <td>
-              Agente, debe mantener liderazgo durante la llamada para evitar que
-              el usuario se salga de contexto.
-            </td>
-            <td>
-              ( 0 )<br />
-              Agente, permite desvío de conversación durante la llamada.
-            </td>
-            <td>
-              ( 5 )<br />
-              Agente, mantiene el liderazgo durante la llamada, no permite que
-              el usuario se salga de contexto.{' '}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row" className="align-middle ">
-              VOZ Y VOCABULARIO
-            </th>
-            <td>
-              Agente, utiliza un vocabulario apropiado, sin muletillas, sonidos
-              guturales, pleonasmos o extranjerismos, no habla rápido y presenta
-              un tono de voz lineal.
-            </td>
-            <td>
-              ( 0 )<br />
-              Agente, no utiliza un vocabulario apropiado, tiene muletillas,
-              sonidos guturales, pleonasmos o extranjerismos, habla rápido y no
-              tiene un tono de voz lineal.
-            </td>
-            <td>
-              Mark( 5 )<br />
-              Agente, utiliza un vocabulario apropiado, no tiene muletillas,
-              sonidos guturales, pleonasmos o extranjerismos, no habla rápido y
-              presenta un tono de voz lineal.
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">&nbsp;</th>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>Mark</td>
-            <td>Mark</td>
-          </tr>
-        </tbody>
-      </table>
+      <div>
+        <Row>
+          <Col xs="6"></Col>
+          <Col xs="6">
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <th>Código</th>
+                </tr>
+                <tr>
+                  <td>F-Q-09</td>
+                </tr>
+                <tr>
+                  <th>versión</th>
+                </tr>
+                <tr>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th>retención</th>
+                </tr>
+                <tr>
+                  <td>1 año</td>
+                </tr>
+              </tbody>
+            </table>
+          </Col>
+          <Col xs="12">
+            <table className=" table table-bordered table-responsive">
+              <thead className="bg-danger text-white">
+                <tr>
+                  <th colspan="4" scope="col">
+                    Campaña IN
+                  </th>
+                </tr>
+                <tr>
+                  <th colspan="4" scope="col">
+                    INTRODUCCIÓN
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">CONCEPTO</th>
+                  <th>DEFINICIÓN</th>
+                  <th>NO</th>
+                  <th>SI</th>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    SALUDO
+                  </th>
+                  <td>
+                    Agente, debe mencionar frase de cortesía, nombre de la
+                    empresa a la que representa, su nombre con primer apellido.
+                    (Introducción)
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no menciona frase de cortesía, no proporcionó
+                    nombre de la empresa a la que representa, no indica su
+                    nombre y/o apellido.
+                  </td>
+                  <td>
+                    ( 1 ) Agente, se presenta mencionando frase de cortesía,
+                    nombre de la empresa a la que representa e indica su nombre
+                    con primer apellido.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    IDENTIFICA AL CLIENTE
+                  </th>
+                  <td>
+                    Agente, debe identificar al usuario preguntando ¿Con quién
+                    tiene gusto?, personalizar mínimo 3 veces durante la
+                    llamada.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no preguntó ¿Con quién tengo gusto?, no
+                    personalizó durante la llamada con nombre o apellido.
+                  </td>
+                  <td>
+                    ( 1 ) Agente, identifica al usuario preguntando ¿Con quién
+                    tengo gusto?, posteriormente personaliza la llamada con
+                    nombre o apellido mínimo 3 veces durante la llamada.
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="4" scope="row" className="bg-danger text-white">
+                    INFORMACIÓN
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="row">CONCEPTO</th>
+                  <th>DEFINICIÓN</th>
+                  <th>NO</th>
+                  <th>SI</th>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    SONDEO{' '}
+                  </th>
+                  <td>
+                    Agente, debe hacer preguntas útiles de acuerdo a las
+                    necesidades del usuario.{' '}
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no hace preguntas útiles de acuerdo a las
+                    necesidades del usuario.{' '}
+                  </td>
+                  <td>
+                    ( 14 ) Agente, hace preguntas útiles de acuerdo a las
+                    necesidades del usuario.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    INFORMACIÓN
+                  </th>
+                  <td>
+                    Agente, debe mencionar la información completa, correcta y
+                    necesaria al usuario.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no menciona la información completa, correcta
+                    y necesaria al usuario.
+                  </td>
+                  <td>
+                    ( 15 ) Agente, menciona la información completa, correcta y
+                    necesaria al usuario.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    ASERTIVIDAD
+                  </th>
+                  <td>
+                    Agente, debe transmitir la información clara, correcta e
+                    inmediata al usuario.
+                  </td>
+                  <td>
+                    ( 10 ) Agente, no transmite la información clara, correcta e
+                    inmediata al usuario.
+                  </td>
+                  <td>
+                    ( 10 ) Agente, responde la información clara, correcta e
+                    inmediata al usuario.
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="4" scope="row" className="bg-danger text-white">
+                    PROCESOS
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="row">CONCEPTO</th>
+                  <th>DEFINICIÓN</th>
+                  <th>NO</th>
+                  <th>SI</th>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    APEGO A PROCESO / POLÍTICAS
+                  </th>
+                  <td>
+                    Agente, sigue procesos establecidos por Viaducto
+                    Bicentenario.{' '}
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no se apega a los procesos establecidos por
+                    Viaducto Bicentenario.
+                  </td>
+                  <td>
+                    ( 12 ) Agente, sigue procesos establecidos por Viaducto
+                    Bicentenario.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    CAPTURA CORRECTA
+                  </th>
+                  <td>
+                    Agente, debe capturar de acuerdo a lo que el usuario indica
+                    de forma clara y coherente, sin errores ortográficos.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no captura de acuerdo a lo que el usuario
+                    indica de forma clara y coherente, tiene errores
+                    ortográficos.
+                  </td>
+                  <td>
+                    ( 10 ) Agente, captura de acuerdo a lo que el usuario indica
+                    de forma clara y coherente, sin errores ortográficos.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    TIPIFICACIÓN
+                  </th>
+                  <td>
+                    Agente, debe tipificar de acuerdo al tipo de llamada y en
+                    tiempo.{' '}
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no tipifica de acuerdo al tipo de llamada y/o
+                    en tiempo.{' '}
+                  </td>
+                  <td>
+                    ( 4 ) Agente, tipifica de acuerdo al tipo de llamada y en
+                    tiempo.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="4" scope="row" className="bg-danger text-white">
+                    HABILIDAD DE COMUNICACIÓN
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="row">CONCEPTO</th>
+                  <th>DEFINICIÓN</th>
+                  <th>NO</th>
+                  <th>SI</th>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    AGRADECE TIEMPO DE ESPERA
+                  </th>
+                  <td>
+                    Agente, debe solicitar, justificar y agradecer tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no solicita, justifica y agradece tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                  <td>
+                    ( 5 ) Agente, solicita, justifica y agradece tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    AGRADECE TIEMPO DE ESPERA
+                  </th>
+                  <td>
+                    Agente, debe solicitar, justificar y agradecer tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no solicita, justifica y agradece tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                  <td>
+                    ( 5 ) Agente, solicita, justifica y agradece tiempos de
+                    espera cada 40 segundos.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    CORTESÍA Y EMPATÍA
+                  </th>
+                  <td>
+                    Agente, se muestra cortes utilizando frases de cortesía, no
+                    es sarcástico y no interrumpe al usuario.
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no es cortes, no utiliza frases de cortesía,
+                    es sarcástico e interrumpe al usuario.{' '}
+                  </td>
+                  <td>
+                    ( 5 ) Agente, es cortes utilizando frases de cortesía, no es
+                    sarcástico y no interrumpe al usuario.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    ESCUCHA Y COMPRENDE
+                  </th>
+                  <td>
+                    Agente, debe estar atento a las dudas e información del
+                    usuario, evita solicitar información ya proporcionada y
+                    brinda una respuesta correta.{' '}
+                  </td>
+                  <td>
+                    ( 0 ) Agente, no esta atento a las dudas del usuario,
+                    solicita la información ya proporcionda y/o brinda una
+                    respuesta ajena a la pregunta del usuario.{' '}
+                  </td>
+                  <td>
+                    ( 5 ) Agente, atiende las dudas y preguntas del usuario, no
+                    solicita información ya proporcionada brindando una
+                    respuesta correta.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    AHT
+                  </th>
+                  <td>
+                    Agente, debe contestar antes del segundo 03, no debe
+                    prolongar la llamada innecesariamente con tiempos
+                    injustificados y no debe brindar información innecesaria.
+                  </td>
+                  <td>
+                    ( 5 )<br />
+                    Agente, deja línea abierta, tiene tiempos injustificados,
+                    brinda información innecesaria.
+                  </td>
+                  <td>
+                    ( 5 )<br />
+                    Agente, contesta antes del segundo 03, prolongar la llamada
+                    innecesariamente con tiempos injustificados y no brinda
+                    información innecesaria.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    CONTROL DE LLAMADA
+                  </th>
+                  <td>
+                    Agente, debe mantener liderazgo durante la llamada para
+                    evitar que el usuario se salga de contexto.
+                  </td>
+                  <td>
+                    ( 0 )<br />
+                    Agente, permite desvío de conversación durante la llamada.
+                  </td>
+                  <td>
+                    ( 5 )<br />
+                    Agente, mantiene el liderazgo durante la llamada, no permite
+                    que el usuario se salga de contexto.{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="align-middle ">
+                    VOZ Y VOCABULARIO
+                  </th>
+                  <td>
+                    Agente, utiliza un vocabulario apropiado, sin muletillas,
+                    sonidos guturales, pleonasmos o extranjerismos, no habla
+                    rápido y presenta un tono de voz lineal.
+                  </td>
+                  <td>
+                    ( 0 )<br />
+                    Agente, no utiliza un vocabulario apropiado, tiene
+                    muletillas, sonidos guturales, pleonasmos o extranjerismos,
+                    habla rápido y no tiene un tono de voz lineal.
+                  </td>
+                  <td>
+                    Mark( 5 )<br />
+                    Agente, utiliza un vocabulario apropiado, no tiene
+                    muletillas, sonidos guturales, pleonasmos o extranjerismos,
+                    no habla rápido y presenta un tono de voz lineal.
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="4" scope="row" className="bg-danger text-white">
+                    DESPEDIDA
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="row">CONCEPTO</th>
+                  <th>DEFINICIÓN</th>
+                  <th>NO</th>
+                  <th>SI</th>
+                </tr>
+                <tr>
+                  <th scope="row">USO DE RECURSOS</th>
+                  <td>
+                    Agente, debe utilizar correctamente las herramientas de
+                    trabajo, (aplicaciones, mute y pagina web).
+                  </td>
+                  <td>Agente, debe ofrecer ayuda adicional.</td>
+                  <td>
+                    Agente, debe mencionar frase de cortesía, nombre de la
+                    empresa a la que representa, su nombre con primer apellido.
+                    (Despedida)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">AYUDA ADICIONAL</th>
+                  <td>
+                    ( 0 ) Agente, no utiliza correctamente las herramientas de
+                    trabajo (aplicaciones, mute y pagina web).
+                  </td>
+                  <td>Agente, no ofrece ayuda adicional.</td>
+                  <td>
+                    ( 0 ) Agente, no menciona frase de cortesía, nombre de la
+                    empresa a la que representa, su nombre con primer apellido.
+                    (Despedida)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">DESPEDIDA</th>
+                  <td>
+                    ( 1 ) Agente, hace buen uso de sus herramientas de trabajo
+                    (aplicaciones, mute y pagina web).
+                  </td>
+                  <td>( 1 ) Agente, ofrece ayuda adicional.</td>
+                  <td>
+                    ( 1 ) Agente, menciona frase de cortesía, nombre de la
+                    empresa a la que representa, su nombre con primer apellido.
+                    (Despedida)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+      </div>
     )
   }
 }
@@ -2386,7 +2414,6 @@ class TablaVentas extends Component {
   render() {
     return (
       <div>
-       
         <table className="table table-bordered  ">
           <thead class="">
             <tr>
@@ -2464,7 +2491,6 @@ class TablasVentasOut extends Component {
   render() {
     return (
       <div>
-       
         <table className="table table-bordered  ">
           <thead class="">
             <tr>
@@ -2548,7 +2574,6 @@ class TablaLineaHistorico extends Component {
   render() {
     return (
       <div>
-        
         <table className="table table-bordered  ">
           <thead class="">
             <tr>
@@ -2584,7 +2609,6 @@ class TablasImputables extends Component {
   render() {
     return (
       <div>
-     
         <table className="table table-bordered  ">
           <thead class="">
             <tr>
@@ -2655,7 +2679,6 @@ class TablaMonitoreo extends Component {
   render() {
     return (
       <div>
-       
         <table className="table table-bordered  ">
           <thead class="">
             <tr>
@@ -2731,9 +2754,8 @@ class TablaTipoMotivo extends Component {
   render() {
     return (
       <div>
-        
         <table className="table table-bordered  ">
-          <thead >
+          <thead>
             <tr>
               <th
                 colspan=""
@@ -2777,9 +2799,8 @@ class TablaRetro extends Component {
   render() {
     return (
       <div>
-      
         <table className="table table-bordered  ">
-          <thead >
+          <thead>
             <tr>
               <th
                 colspan=""
@@ -2815,7 +2836,6 @@ class TablaHotTopics extends Component {
   render() {
     return (
       <div>
-       
         <table className="table table-bordered table-responsive ">
           <tbody>
             <tr>
@@ -2907,7 +2927,6 @@ class TablaConcentrado extends Component {
   render() {
     return (
       <div>
-        
         <table className="table table-bordered">
           <tbody>
             <tr>
@@ -3020,9 +3039,8 @@ class TablaAnexos extends Component {
   render() {
     return (
       <div>
-       
         <table className="table table-bordered">
-          <thead >
+          <thead>
             <tr>
               <th
                 colspan=""
@@ -3269,10 +3287,19 @@ class TablaControlCambios extends Component {
 }
 
 export {
-  TablaInBoundGuia,TablaInBoundRubros, TablaInBoundScript,
-  TablaOutBoundGuia,TablaOutBoundRubros,TablaOutBoundScript,
-  TablaSoporteGuia,TablaSoporteRubros,TablaSoporteScript,
-  TablaWhRubros,TablaWhPlantilla,TablaWhCriterios,TablaWhGuia,
+  TablaInBoundGuia,
+  TablaInBoundRubros,
+  TablaInBoundScript,
+  TablaOutBoundGuia,
+  TablaOutBoundRubros,
+  TablaOutBoundScript,
+  TablaSoporteGuia,
+  TablaSoporteRubros,
+  TablaSoporteScript,
+  TablaWhRubros,
+  TablaWhPlantilla,
+  TablaWhCriterios,
+  TablaWhGuia,
   TablaATC,
   TablaVentas,
   TablasVentasOut,
