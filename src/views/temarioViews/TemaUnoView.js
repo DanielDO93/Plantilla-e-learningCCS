@@ -15,14 +15,14 @@ class TemaUnoView extends Component {
           <CardHeader className="text-left">
             <h3>Definiciones</h3>
           </CardHeader>
-          <CardBody className="text-justify">
+          <CardBody className="">
             <Row>
               <Col xs="12">
                 <Carousel className="bg-dark pt-2 " interval={50000000}>
                   <Carousel.Item className="pl-4">
                     <Row>
                       <Col xs="12" className="mb-4">
-                        <div className="paddingCarousel">
+                        <div className="paddingCarousel text-justify">
                           <ul className="pl-2">
                             <li>
                               <b>In Bound</b>: Transacciones de entrada que
@@ -56,74 +56,72 @@ class TemaUnoView extends Component {
                             </li>
                           </ul>
                         </div>
-                       
                       </Col>
                     </Row>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                   <Row>
-                     <Col xs="12" className="mb-4">
-                     <div className="paddingCarousel">
-                      <ul>
-                        <li>
-                          <b>Monitoreo</b>: Evaluación de una llamada con el
-                          objetivo de identificar las debilidades y fortalezas
-                          del agente telefónico, además de validar el
-                          cumplimiento de los requisitos establecidos por el
-                          cliente.
-                        </li>
-                        <li>
-                          <b>Retroalimentación</b>: Explicación verbal dirigida
-                          al agente con el fin de concientizarle de las
-                          debilidades y fortalezas presentadas durante la
-                          transacción o llamada con el fin de mejorar su
-                          desempeño en la siguiente transacción.
-                        </li>
-                        <li>
-                          <b>Transacción</b>: Es una operación comercial o un
-                          acuerdo consistente en intercambiar un bien o servicio
-                          entre solicitante y proveedor. Los tipos de
-                          transacción pueden ser por vía telefónica, chat,
-                          email, etc.
-                        </li>
-                        <li>
-                          <b>Tipificación</b>: Clasificación en tipos o clases
-                          de una realidad o un conjunto de interacciones.
-                        </li>
-                      </ul>
-                    </div>
-                     </Col>
-                   </Row>
-                   
                   </Carousel.Item>
                   <Carousel.Item>
                     <Row>
                       <Col xs="12" className="mb-4">
-                      <div className="paddingCarousel">
-                      <ul>
-                        <li>
-                          <b>AHT</b>: Tiempo promedio de relación con el cliente
-                          en la interacción.
-                        </li>
-                        <li>
-                          <b>FCR</b>: Indicador de tiempo de resolución de la
-                          llamada durante el primer contacto.
-                        </li>
-                        <li>
-                          <b>Gestión</b>: Conjunto de operaciones que se
-                          realizan para dirigir y administrar un negocio o una
-                          empresa.
-                        </li>
-                        <li>
-                          <b>Error fatal</b>: Se considera error fatal toda mala
-                          práctica que afecte al usuario final, cliente o CCS ya
-                          sea por imagen y/o económicamente
-                        </li>
-                      </ul>
-                    </div>
+                        <div className="paddingCarousel text-justify">
+                          <ul>
+                            <li>
+                              <b>Monitoreo</b>: Evaluación de una llamada con el
+                              objetivo de identificar las debilidades y
+                              fortalezas del agente telefónico, además de
+                              validar el cumplimiento de los requisitos
+                              establecidos por el cliente.
+                            </li>
+                            <li>
+                              <b>Retroalimentación</b>: Explicación verbal
+                              dirigida al agente con el fin de concientizarle de
+                              las debilidades y fortalezas presentadas durante
+                              la transacción o llamada con el fin de mejorar su
+                              desempeño en la siguiente transacción.
+                            </li>
+                            <li>
+                              <b>Transacción</b>: Es una operación comercial o
+                              un acuerdo consistente en intercambiar un bien o
+                              servicio entre solicitante y proveedor. Los tipos
+                              de transacción pueden ser por vía telefónica,
+                              chat, email, etc.
+                            </li>
+                            <li>
+                              <b>Tipificación</b>: Clasificación en tipos o
+                              clases de una realidad o un conjunto de
+                              interacciones.
+                            </li>
+                          </ul>
+                        </div>
                       </Col>
                     </Row>
-                    
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Row>
+                      <Col xs="12" className="mb-4">
+                        <div className="paddingCarousel text-justify">
+                          <ul>
+                            <li>
+                              <b>AHT</b>: Tiempo promedio de relación con el
+                              cliente en la interacción.
+                            </li>
+                            <li>
+                              <b>FCR</b>: Indicador de tiempo de resolución de
+                              la llamada durante el primer contacto.
+                            </li>
+                            <li>
+                              <b>Gestión</b>: Conjunto de operaciones que se
+                              realizan para dirigir y administrar un negocio o
+                              una empresa.
+                            </li>
+                            <li>
+                              <b>Error fatal</b>: Se considera error fatal toda
+                              mala práctica que afecte al usuario final, cliente
+                              o CCS ya sea por imagen y/o económicamente
+                            </li>
+                          </ul>
+                        </div>
+                      </Col>
+                    </Row>
                   </Carousel.Item>
                 </Carousel>
               </Col>
