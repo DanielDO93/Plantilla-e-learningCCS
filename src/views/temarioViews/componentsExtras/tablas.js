@@ -584,123 +584,125 @@ class TablaInBoundScript extends Component {
 class TablaOutBoundGuia extends Component {
   render() {
     return (
-      <div className="xs-12 centrado-fila">
-        <table className="table table-bordered table-responsive">
-          <thead class="">
-            <tr>
-              <th className="bg-danger text-white" scope="col">
-                Rubro
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                Subrubro
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                %
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="2">
-                <b>INTRODUCCIÓN</b>
-              </td>
-              <td>Introducción/Saludo</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>Identifica a Cliente y Personalizar</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td rowspan="4" className="align-middle">
-                <b>Sondeo</b>
-              </td>
-              <td>Sondeo de tipo de evento</td>
-              <td>4%</td>
-            </tr>
-            <tr>
-              <td>Sondeo de prendas/modelos</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>Sondeo de talla</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>Sondeo de entrega ( domicilio o empresa) </td>
-              <td>5%</td>
-            </tr>
+      <Col xs="12" className="centrado-fila">
+        <div>
+          <table className="table table-bordered table-responsive">
+            <thead class="">
+              <tr>
+                <th className="bg-danger text-white" scope="col">
+                  Rubro
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  Subrubro
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  %
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">
+                  <b>INTRODUCCIÓN</b>
+                </td>
+                <td>Introducción/Saludo</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>Identifica a Cliente y Personalizar</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td rowspan="4" className="align-middle">
+                  <b>Sondeo</b>
+                </td>
+                <td>Sondeo de tipo de evento</td>
+                <td>4%</td>
+              </tr>
+              <tr>
+                <td>Sondeo de prendas/modelos</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>Sondeo de talla</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>Sondeo de entrega ( domicilio o empresa) </td>
+                <td>5%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="2" className="align-middle">
-                <b> Información</b>
-              </td>
-              <td>Información y Asertividad</td>
-              <td>6%</td>
-            </tr>
-            <tr>
-              <td>Promociones</td>
-              <td>9%</td>
-            </tr>
+              <tr>
+                <td rowspan="2" className="align-middle">
+                  <b> Información</b>
+                </td>
+                <td>Información y Asertividad</td>
+                <td>6%</td>
+              </tr>
+              <tr>
+                <td>Promociones</td>
+                <td>9%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="3" className="align-middle ">
-                <b>Gestión</b>
-              </td>
-              <td>Cierre de Ventas</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Manejo de objeciones</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Venta Cruzada/Incremental </td>
-              <td>9%</td>
-            </tr>
+              <tr>
+                <td rowspan="3" className="align-middle ">
+                  <b>Gestión</b>
+                </td>
+                <td>Cierre de Ventas</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>Manejo de objeciones</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>Venta Cruzada/Incremental </td>
+                <td>9%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="3" className="align-middle ">
-                <b>Proceso</b>
-              </td>
-              <td>Redacción</td>
-              <td>6%</td>
-            </tr>
-            <tr>
-              <td>Ortografía</td>
-              <td>6%</td>
-            </tr>
-            <tr>
-              <td>Confirmación de pedido</td>
-              <td>6%</td>
-            </tr>
-            <tr>
-              <td rowspan="4" className="align-middle ">
-                <b>Habilidad de Comunicación</b>
-              </td>
-              <td>Cortesía y Empatía</td>
-              <td>4%</td>
-            </tr>
-            <tr>
-              <td>Tiempo de Respuesta </td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>Ayuda Adicional </td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>Despedida</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td>100%</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+              <tr>
+                <td rowspan="3" className="align-middle ">
+                  <b>Proceso</b>
+                </td>
+                <td>Redacción</td>
+                <td>6%</td>
+              </tr>
+              <tr>
+                <td>Ortografía</td>
+                <td>6%</td>
+              </tr>
+              <tr>
+                <td>Confirmación de pedido</td>
+                <td>6%</td>
+              </tr>
+              <tr>
+                <td rowspan="4" className="align-middle ">
+                  <b>Habilidad de Comunicación</b>
+                </td>
+                <td>Cortesía y Empatía</td>
+                <td>4%</td>
+              </tr>
+              <tr>
+                <td>Tiempo de Respuesta </td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>Ayuda Adicional </td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>Despedida</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </Col>
     )
   }
 }
@@ -1180,106 +1182,108 @@ class TablaSoporteGuia extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <thead class="">
-            <tr>
-              <th className="bg-danger text-white" scope="col">
-                Rubro
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                Subrubro
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                %
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="2">
-                <b>INTRODUCCIÓN</b>
-              </td>
-              <td>Introduccion / Saludo</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>Identifica al Cliente</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td rowspan="2" className="align-middle">
-                <b>INFORMACIÓN</b>
-              </td>
-              <td>Sondeo</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Conocimiento de Información</td>
-              <td>10%</td>
-            </tr>
+        <di>
+          <table className="table table-bordered table-responsive ">
+            <thead class="">
+              <tr>
+                <th className="bg-danger text-white" scope="col">
+                  Rubro
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  Subrubro
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  %
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">
+                  <b>INTRODUCCIÓN</b>
+                </td>
+                <td>Introduccion / Saludo</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>Identifica al Cliente</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td rowspan="2" className="align-middle">
+                  <b>INFORMACIÓN</b>
+                </td>
+                <td>Sondeo</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>Conocimiento de Información</td>
+                <td>10%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="3" className="align-middle">
-                <b>PROCESO</b>
-              </td>
-              <td>Apego a proceso (Encuesta)</td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>Captura completa y correcta</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Tipificacion</td>
-              <td>10%</td>
-            </tr>
+              <tr>
+                <td rowspan="3" className="align-middle">
+                  <b>PROCESO</b>
+                </td>
+                <td>Apego a proceso (Encuesta)</td>
+                <td>15%</td>
+              </tr>
+              <tr>
+                <td>Captura completa y correcta</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>Tipificacion</td>
+                <td>10%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="6" className="align-middle ">
-                <b>HABILIDAD DE COMUNICACIÓN</b>
-              </td>
-              <td>Agradece Tiempos de espera</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>Escucha y comprende</td>
-              <td>7%</td>
-            </tr>
-            <tr>
-              <td>Voz y Vocabulario</td>
-              <td>7%</td>
-            </tr>
-            <tr>
-              <td>Control de llamada</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>Cortesía y Empatía </td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>AHT</td>
-              <td>5%</td>
-            </tr>
+              <tr>
+                <td rowspan="6" className="align-middle ">
+                  <b>HABILIDAD DE COMUNICACIÓN</b>
+                </td>
+                <td>Agradece Tiempos de espera</td>
+                <td>3%</td>
+              </tr>
+              <tr>
+                <td>Escucha y comprende</td>
+                <td>7%</td>
+              </tr>
+              <tr>
+                <td>Voz y Vocabulario</td>
+                <td>7%</td>
+              </tr>
+              <tr>
+                <td>Control de llamada</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>Cortesía y Empatía </td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>AHT</td>
+                <td>5%</td>
+              </tr>
 
-            <tr>
-              <td rowspan="2" className="align-middle ">
-                <b>DESPEDIDA</b>
-              </td>
-              <td>Uso de Recursos</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>Despedida</td>
-              <td>1%</td>
-            </tr>
+              <tr>
+                <td rowspan="2" className="align-middle ">
+                  <b>DESPEDIDA</b>
+                </td>
+                <td>Uso de Recursos</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>Despedida</td>
+                <td>1%</td>
+              </tr>
 
-            <tr>
-              <td colspan="2"></td>
-              <td>100%</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td colspan="2"></td>
+                <td>100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </di>
       </Col>
     )
   }
@@ -1637,89 +1641,91 @@ class TablaWhGuia extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered  ">
-          <thead class="">
-            <tr>
-              <th className="bg-danger text-white" scope="col">
-                WHATSAPP
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                RUBRO{' '}
-              </th>
-              <th className="bg-danger text-white" scope="col">
-                %
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th rowspan="2" className="align-middle">
-                INTRODUCCIÓN
-              </th>
-              <td>IDENTIFICA AL CLIENTE</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>NTRODUCCIÓN / SALUDO</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <th rowspan="4" className="align-middle">
-                PROCESO
-              </th>
-              <td>APEGO A PROCESO</td>
-              <td>13%</td>
-            </tr>
-            <tr>
-              <td>SONDEO</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>TIPIFICACIÓN</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>MENCIÓN CLUB TELEVIP / POSTPAGO / WHATSAPP</td>
-              <td>13%</td>
-            </tr>
+        <div>
+          <table className="table table-bordered  ">
+            <thead class="">
+              <tr>
+                <th className="bg-danger text-white" scope="col">
+                  WHATSAPP
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  RUBRO{' '}
+                </th>
+                <th className="bg-danger text-white" scope="col">
+                  %
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="2" className="align-middle">
+                  INTRODUCCIÓN
+                </th>
+                <td>IDENTIFICA AL CLIENTE</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>NTRODUCCIÓN / SALUDO</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <th rowspan="4" className="align-middle">
+                  PROCESO
+                </th>
+                <td>APEGO A PROCESO</td>
+                <td>13%</td>
+              </tr>
+              <tr>
+                <td>SONDEO</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>TIPIFICACIÓN</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>MENCIÓN CLUB TELEVIP / POSTPAGO / WHATSAPP</td>
+                <td>13%</td>
+              </tr>
 
-            <tr>
-              <th rowspan="3" className="align-middle">
-                HABILIDAD DE
-                <br /> COMUNICACIÓN
-              </th>
-              <td>CORTESÍA Y EMPATÍA</td>
-              <td>8%</td>
-            </tr>
-            <tr>
-              <td>ORTOGRAFÍA</td>
-              <td>14%</td>
-            </tr>
-            <tr>
-              <td>REDACCIÓN</td>
-              <td>14%</td>
-            </tr>
-            <tr>
-              <th rowspan="3" className="align-middle">
-                DESPEDIDA
-              </th>
-              <td>AYUDA ADICIONAL</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>DESPEDIDA</td>
-              <td>2%</td>
-            </tr>
-            <tr>
-              <td>LIGA DE ENCUESTA</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td colspan="2">&nbsp;</td>
-              <td>100%</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <th rowspan="3" className="align-middle">
+                  HABILIDAD DE
+                  <br /> COMUNICACIÓN
+                </th>
+                <td>CORTESÍA Y EMPATÍA</td>
+                <td>8%</td>
+              </tr>
+              <tr>
+                <td>ORTOGRAFÍA</td>
+                <td>14%</td>
+              </tr>
+              <tr>
+                <td>REDACCIÓN</td>
+                <td>14%</td>
+              </tr>
+              <tr>
+                <th rowspan="3" className="align-middle">
+                  DESPEDIDA
+                </th>
+                <td>AYUDA ADICIONAL</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>DESPEDIDA</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>LIGA DE ENCUESTA</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td colspan="2">&nbsp;</td>
+                <td>100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2284,79 +2290,81 @@ class TablaWhRubros extends Component {
           </Col>
         </Row>
         <Col xs="12" className="centrado-fila">
-          <table className="table table-bordered  table-responsive ">
-            <thead class="">
-              <tr>
-                <th className="bg-danger text-white" scope="col">
-                  MAIL
-                </th>
-                <th className="bg-danger text-white" scope="col">
-                  RUBRO
-                </th>
-                <th className="bg-danger text-white" scope="col">
-                  %
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th rowspan="8" className="bg-danger text-white align-middle">
-                  <b>PROCESO</b>
-                </th>
-                <td>
-                  <b>Apego a Proceso </b>
-                </td>
-                <td>15%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Captura Completa y Correcta de Datos </b>
-                </td>
-                <td>10%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Tiempo de Respuesta </b>
-                </td>
-                <td>10%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Liga de encuesta. </b>
-                </td>
-                <td>15%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Nota en CRM. </b>
-                </td>
-                <td>10%</td>
-              </tr>
+          <div>
+            <table className="table table-bordered  table-responsive ">
+              <thead class="">
+                <tr>
+                  <th className="bg-danger text-white" scope="col">
+                    MAIL
+                  </th>
+                  <th className="bg-danger text-white" scope="col">
+                    RUBRO
+                  </th>
+                  <th className="bg-danger text-white" scope="col">
+                    %
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th rowspan="8" className="bg-danger text-white align-middle">
+                    <b>PROCESO</b>
+                  </th>
+                  <td>
+                    <b>Apego a Proceso </b>
+                  </td>
+                  <td>15%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Captura Completa y Correcta de Datos </b>
+                  </td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Tiempo de Respuesta </b>
+                  </td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Liga de encuesta. </b>
+                  </td>
+                  <td>15%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Nota en CRM. </b>
+                  </td>
+                  <td>10%</td>
+                </tr>
 
-              <tr>
-                <td>
-                  <b>Ortografía y redacción. </b>
-                </td>
-                <td>15%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Seguimiento de casos. </b>
-                </td>
-                <td>15%</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>Captura en bitacora. </b>
-                </td>
-                <td>10%</td>
-              </tr>
-              <tr>
-                <td colspan="2">TOTAL</td>
-                <td>100%</td>
-              </tr>
-            </tbody>
-          </table>
+                <tr>
+                  <td>
+                    <b>Ortografía y redacción. </b>
+                  </td>
+                  <td>15%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Seguimiento de casos. </b>
+                  </td>
+                  <td>15%</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Captura en bitacora. </b>
+                  </td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td colspan="2">TOTAL</td>
+                  <td>100%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </Col>
       </div>
     )
@@ -2367,74 +2375,76 @@ class TablaATC extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <thead>
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                colspan="3"
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                ATC{' '}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-AHT
-              </th>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-Tipifica
-              </th>
-              <th className="align-middle bg-secondary text-white  text-center">
-                T-Resolucion
-              </th>
-            </tr>
-            <tr>
-              <td className="align-middle">Justificado</td>
-              <td>Tipifica</td>
-              <td>Soluciona</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Injustificado</td>
-              <td>No tipifica</td>
-              <td>No Soluciona</td>
-            </tr>
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <strong>Imputable</strong>
-              </th>
-              <td
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <b>
-                  <strong>T-Calidad Tipificación</strong>
-                </b>
-              </td>
-              <td>No Aplica</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Agente</td>
-              <td>Correcta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Cliente </td>
-              <td>Incorrecta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Usuario</td>
-              <td>
-                <b>No Aplica</b>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive ">
+            <thead>
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  colspan="3"
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  ATC{' '}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-AHT
+                </th>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-Tipifica
+                </th>
+                <th className="align-middle bg-secondary text-white  text-center">
+                  T-Resolucion
+                </th>
+              </tr>
+              <tr>
+                <td className="align-middle">Justificado</td>
+                <td>Tipifica</td>
+                <td>Soluciona</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Injustificado</td>
+                <td>No tipifica</td>
+                <td>No Soluciona</td>
+              </tr>
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <strong>Imputable</strong>
+                </th>
+                <td
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <b>
+                    <strong>T-Calidad Tipificación</strong>
+                  </b>
+                </td>
+                <td>No Aplica</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Agente</td>
+                <td>Correcta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Cliente </td>
+                <td>Incorrecta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Usuario</td>
+                <td>
+                  <b>No Aplica</b>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2444,74 +2454,76 @@ class TablaVentas extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive  ">
-          <thead class="">
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                colspan="3"
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                ATC{' '}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-AHT
-              </th>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-Tipifica
-              </th>
-              <th className="align-middle bg-secondary text-white  text-center">
-                T-Gestión
-              </th>
-            </tr>
-            <tr>
-              <td className="align-middle">Justificado</td>
-              <td>Tipifica</td>
-              <td>Gestiona</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Injustificado</td>
-              <td>No tipifica</td>
-              <td>No Gestiona</td>
-            </tr>
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <strong>Imputable</strong>
-              </th>
-              <td
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <b>
-                  <strong>T-Calidad Tipificación</strong>
-                </b>
-              </td>
-              <td>No Aplica</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Agente</td>
-              <td>Correcta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Cliente </td>
-              <td>Incorrecta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Usuario</td>
-              <td>
-                <b>No Aplica</b>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive  ">
+            <thead class="">
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  colspan="3"
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  ATC{' '}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-AHT
+                </th>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-Tipifica
+                </th>
+                <th className="align-middle bg-secondary text-white  text-center">
+                  T-Gestión
+                </th>
+              </tr>
+              <tr>
+                <td className="align-middle">Justificado</td>
+                <td>Tipifica</td>
+                <td>Gestiona</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Injustificado</td>
+                <td>No tipifica</td>
+                <td>No Gestiona</td>
+              </tr>
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <strong>Imputable</strong>
+                </th>
+                <td
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <b>
+                    <strong>T-Calidad Tipificación</strong>
+                  </b>
+                </td>
+                <td>No Aplica</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Agente</td>
+                <td>Correcta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Cliente </td>
+                <td>Incorrecta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Usuario</td>
+                <td>
+                  <b>No Aplica</b>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2521,80 +2533,82 @@ class TablasVentasOut extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive  ">
-          <thead class="">
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                colspan="4"
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>VENTAS OUT</strong>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-AHT
-              </th>
-              <th className="align-middle bg-secondary text-white text-center ">
-                T-Tipifica
-              </th>
-              <th className="align-middle bg-secondary text-white  text-center">
-                T-Gestión
-              </th>
-              <th className="align-middle bg-secondary text-white  text-center">
-                T-Aprovechamiento de BDD
-              </th>
-            </tr>
-            <tr>
-              <td className="align-middle">Justificado</td>
-              <td>Tipifica</td>
-              <td>Gestiona</td>
-              <td>SI</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Injustificado</td>
-              <td>No tipifica</td>
-              <td>No Gestiona</td>
-              <td>NO</td>
-            </tr>
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <strong>Imputable</strong>
-              </th>
-              <td
-                style={{ border: 'solid 1px' }}
-                className="align-middle bg-secondary text-white "
-              >
-                <b>
-                  <strong>T-Calidad Tipificación</strong>
-                </b>
-              </td>
-              <td>No Aplica</td>
-              <td>No Aplica</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Agente</td>
-              <td>Correcta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Cliente </td>
-              <td>Incorrecta</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Usuario</td>
-              <td>
-                <b>No Aplica</b>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive  ">
+            <thead class="">
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  colspan="4"
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>VENTAS OUT</strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-AHT
+                </th>
+                <th className="align-middle bg-secondary text-white text-center ">
+                  T-Tipifica
+                </th>
+                <th className="align-middle bg-secondary text-white  text-center">
+                  T-Gestión
+                </th>
+                <th className="align-middle bg-secondary text-white  text-center">
+                  T-Aprovechamiento de BDD
+                </th>
+              </tr>
+              <tr>
+                <td className="align-middle">Justificado</td>
+                <td>Tipifica</td>
+                <td>Gestiona</td>
+                <td>SI</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Injustificado</td>
+                <td>No tipifica</td>
+                <td>No Gestiona</td>
+                <td>NO</td>
+              </tr>
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <strong>Imputable</strong>
+                </th>
+                <td
+                  style={{ border: 'solid 1px' }}
+                  className="align-middle bg-secondary text-white "
+                >
+                  <b>
+                    <strong>T-Calidad Tipificación</strong>
+                  </b>
+                </td>
+                <td>No Aplica</td>
+                <td>No Aplica</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Agente</td>
+                <td>Correcta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Cliente </td>
+                <td>Incorrecta</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Usuario</td>
+                <td>
+                  <b>No Aplica</b>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2604,32 +2618,34 @@ class TablaLineaHistorico extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <thead class="">
-            <tr>
-              <th
-                style={{ border: 'solid 1px' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                Línea{' '}
-              </th>
-              <th
-                style={{ border: 'solid 1px' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                Histórico{' '}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="align-middle text-center">80%</td>
-              <td className="align-middle text-center">20%</td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive ">
+            <thead class="">
+              <tr>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  Línea{' '}
+                </th>
+                <th
+                  style={{ border: 'solid 1px' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  Histórico{' '}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="align-middle text-center">80%</td>
+                <td className="align-middle text-center">20%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2639,67 +2655,69 @@ class TablasImputables extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive">
-          <thead class="">
-            <tr>
-              <th
-                colspan="2"
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                IMPUTABLES
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th
-                style={{ border: 'solid' }}
-                className="align-middle bg-secondary text-white text-center "
-              >
-                ITEM
-              </th>
-              <th
-                style={{ border: 'solid' }}
-                className="align-middle bg-secondary text-white text-center "
-              >
-                MOTIVO
-              </th>
-            </tr>
-            <tr>
-              <th className="align-middle">Contacto</th>
-              <td>Cuando el interlocutor comete la incidencia  </td>
-            </tr>
-            <tr>
-              <th className="align-middle">Agente</th>
-              <td>Cuando el agente comente una falta </td>
-            </tr>
-            <tr>
-              <th className="align-middle">Cliente </th>
-              <td>
-                Falla o actualización de sistema o herramienta de cliente que no
-                permite continuar con la llamada
-              </td>
-            </tr>
-            <tr>
-              <th className="align-middle">Contacto-agente </th>
-              <td>
-                Cuando la fluidez de la llamada se genera cumpliendo el proceso
-                ya que no hay incidencia o si hay incidencia{' '}
-              </td>
-            </tr>
-            <tr>
-              <th className="align-middle">Ruido o ambiente </th>
-              <td>
-                <ul>
-                  <li>Disciplina: Correspondiente al área de trabajo</li>
+        <div>
+          <table className="table table-bordered table-responsive">
+            <thead class="">
+              <tr>
+                <th
+                  colspan="2"
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  IMPUTABLES
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th
+                  style={{ border: 'solid' }}
+                  className="align-middle bg-secondary text-white text-center "
+                >
+                  ITEM
+                </th>
+                <th
+                  style={{ border: 'solid' }}
+                  className="align-middle bg-secondary text-white text-center "
+                >
+                  MOTIVO
+                </th>
+              </tr>
+              <tr>
+                <th className="align-middle">Contacto</th>
+                <td>Cuando el interlocutor comete la incidencia  </td>
+              </tr>
+              <tr>
+                <th className="align-middle">Agente</th>
+                <td>Cuando el agente comente una falta </td>
+              </tr>
+              <tr>
+                <th className="align-middle">Cliente </th>
+                <td>
+                  Falla o actualización de sistema o herramienta de cliente que
+                  no permite continuar con la llamada
+                </td>
+              </tr>
+              <tr>
+                <th className="align-middle">Contacto-agente </th>
+                <td>
+                  Cuando la fluidez de la llamada se genera cumpliendo el
+                  proceso ya que no hay incidencia o si hay incidencia{' '}
+                </td>
+              </tr>
+              <tr>
+                <th className="align-middle">Ruido o ambiente </th>
+                <td>
+                  <ul>
+                    <li>Disciplina: Correspondiente al área de trabajo</li>
 
-                  <li>Ambiental: Ruido externo, ajeno a la operación</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                    <li>Ambiental: Ruido externo, ajeno a la operación</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2709,72 +2727,74 @@ class TablaMonitoreo extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered  table-responsive ">
-          <thead class="">
-            <tr>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                ESCALA
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                MONITOREOS
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              ></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th className="align-middle text-center">A</th>
-              <td className="text-center">
-                <b>Dos a la semana</b>
-              </td>
-              <td className="text-center">
-                <strong>95 A 100%</strong>
-              </td>
-            </tr>
-            <tr>
-              <th className="align-middle text-center">B</th>
-              <td className="text-center">
-                <strong>Tres a la semana</strong>
-              </td>
-              <td className="text-center">
-                <strong>80 A 94.99%</strong>
-              </td>
-            </tr>
-            <tr>
-              <th className="align-middle text-center">C</th>
-              <td className="text-center">
-                <strong>Cuatro a la semana</strong>
-              </td>
-              <td className="text-center">
-                <strong>0- 79.99%</strong>
-              </td>
-            </tr>
-            <tr>
-              <th className="align-middle text-center">D</th>
-              <td className="text-center">
-                <strong>Cinco a la semana</strong>
-              </td>
-              <td className="text-center">
-                <strong>NI</strong>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered  table-responsive ">
+            <thead class="">
+              <tr>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  ESCALA
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  MONITOREOS
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                ></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="align-middle text-center">A</th>
+                <td className="text-center">
+                  <b>Dos a la semana</b>
+                </td>
+                <td className="text-center">
+                  <strong>95 A 100%</strong>
+                </td>
+              </tr>
+              <tr>
+                <th className="align-middle text-center">B</th>
+                <td className="text-center">
+                  <strong>Tres a la semana</strong>
+                </td>
+                <td className="text-center">
+                  <strong>80 A 94.99%</strong>
+                </td>
+              </tr>
+              <tr>
+                <th className="align-middle text-center">C</th>
+                <td className="text-center">
+                  <strong>Cuatro a la semana</strong>
+                </td>
+                <td className="text-center">
+                  <strong>0- 79.99%</strong>
+                </td>
+              </tr>
+              <tr>
+                <th className="align-middle text-center">D</th>
+                <td className="text-center">
+                  <strong>Cinco a la semana</strong>
+                </td>
+                <td className="text-center">
+                  <strong>NI</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2784,42 +2804,44 @@ class TablaTipoMotivo extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered  table-responsive">
-          <thead>
-            <tr>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                TIPO{' '}
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                MOTIVO{' '}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th className="align-middle text-center">Solicitud</th>
-              <td className="">Llamadas con tiempo mayor a 48 hrs</td>
-            </tr>
-            <tr>
-              <th className="align-middle text-center">Histórico </th>
-              <td className="">Mismo día </td>
-            </tr>
-            <tr>
-              <th className="align-middle text-center">Línea</th>
-              <td className="">Al momento de generar la llamada</td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered  table-responsive">
+            <thead>
+              <tr>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  TIPO{' '}
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  MOTIVO{' '}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="align-middle text-center">Solicitud</th>
+                <td className="">Llamadas con tiempo mayor a 48 hrs</td>
+              </tr>
+              <tr>
+                <th className="align-middle text-center">Histórico </th>
+                <td className="">Mismo día </td>
+              </tr>
+              <tr>
+                <th className="align-middle text-center">Línea</th>
+                <td className="">Al momento de generar la llamada</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2829,34 +2851,36 @@ class TablaRetro extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <thead>
-            <tr>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Coaching </strong>
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>FODA</strong>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>5 minutos aprox.</td>
-              <td className="">15 minutos aprox.</td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive ">
+            <thead>
+              <tr>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Coaching </strong>
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>FODA</strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>5 minutos aprox.</td>
+                <td className="">15 minutos aprox.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2866,88 +2890,90 @@ class TablaHotTopics extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <tbody>
-            <tr>
-              <th className="bg-danger text-white align-middle text-center">
-                Fecha
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Analista
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                IDllamada
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Agente
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Campania
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Tipificacíon Agente
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Tipifica Correctamente{' '}
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Tipificacíon Analista
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Comentarios Analista
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Error Fatal
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Hllazgos/ Hot Topics
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Calificacíon
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Duracíon de llamada
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Recomendacíon QA
-              </th>
-            </tr>
+        <div>
+          <table className="table table-bordered table-responsive ">
+            <tbody>
+              <tr>
+                <th className="bg-danger text-white align-middle text-center">
+                  Fecha
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Analista
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  IDllamada
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Agente
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Campania
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Tipificacíon Agente
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Tipifica Correctamente{' '}
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Tipificacíon Analista
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Comentarios Analista
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Error Fatal
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Hllazgos/ Hot Topics
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Calificacíon
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Duracíon de llamada
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Recomendacíon QA
+                </th>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -2957,43 +2983,45 @@ class TablaConcentrado extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive">
-          <tbody>
-            <tr>
-              <th className="bg-danger text-white align-middle text-center">
-                Fecha
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Analista
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Agente
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Campania
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                Hallazgo
-              </th>
-            </tr>
+        <div>
+          <table className="table table-bordered table-responsive">
+            <tbody>
+              <tr>
+                <th className="bg-danger text-white align-middle text-center">
+                  Fecha
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Analista
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Agente
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Campania
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  Hallazgo
+                </th>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -3003,63 +3031,65 @@ class TablaMisteries extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive">
-          <tbody>
-            <tr>
-              <th className="bg-danger text-white align-middle text-center">
-                FECHA
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                ANALISTA
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                FECHA
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                AGENTE
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                AREA DE OPORTUNIDAD
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                FOLIO
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                SKILL
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                CALIFICACÍON
-              </th>
-              <th className="bg-danger text-white align-middle text-center">
-                OBSEVACIONES
-              </th>
-            </tr>
+        <div>
+          <table className="table table-bordered table-responsive">
+            <tbody>
+              <tr>
+                <th className="bg-danger text-white align-middle text-center">
+                  FECHA
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  ANALISTA
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  FECHA
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  AGENTE
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  AREA DE OPORTUNIDAD
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  FOLIO
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  SKILL
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  CALIFICACÍON
+                </th>
+                <th className="bg-danger text-white align-middle text-center">
+                  OBSEVACIONES
+                </th>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
 
-            <tr>
-              <td>&nbsp;</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -3069,206 +3099,211 @@ class TablaAnexos extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive">
-          <thead>
-            <tr>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Campaña</strong>
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Tipo de campaña </strong>
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Indicador Principal </strong>
-              </th>
-              <th
-                colspan=""
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Indicador Secundario</strong>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="align-middle">Altan Redes</td>
-              <td className="text-center align-middle">Outbound </td>
-              <td className="text-center align-middle">Satisfacción</td>
-              <td className="text-center align-middle">Tipificación</td>
-            </tr>
-            <tr>
-              <td className="align-middle">America Movil </td>
-              <td className="text-center align-middle">Inbound </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Buongiorno </td>
-              <td className="text-center align-middle"> Inbound </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Satisfacción </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Castrol </td>
-              <td className="text-center align-middle">
-                Inbound/Outbound/Mail{' '}
-              </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Singer </td>
-              <td className="text-center align-middle">
-                  Inbound/mail/backoff/Wa{' '}
-              </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Televia Pagos </td>
-              <td className="text-center align-middle">Mail </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Televia SAC </td>
-              <td className="text-center align-middle">Inbound </td>
-              <td className="text-center align-middle">AHT </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Televia Backoffice </td>
-              <td className="text-center align-middle">Backoffice </td>
-              <td className="text-center align-middle">Tipificación </td>
-              <td className="text-center align-middle">QA Tipi </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Televia Whatsapp </td>
-              <td className="text-center align-middle">Wa </td>
-              <td className="text-center align-middle">Tip Whats ATC </td>
-              <td className="text-center align-middle">AHT Whats ATC </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Edenred </td>
-              <td className="text-center align-middle">Outbound </td>
-              <td className="text-center align-middle">Citas </td>
-              <td className="text-center align-middle">Talk Time </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Conde Nast </td>
-              <td className="text-center align-middle">
-                Inbound/Outbound/Mail/Wa{' '}
-              </td>
-              <td className="text-center align-middle">Conversión IN </td>
-              <td className="text-center align-middle">Conversión OUT </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Harmon Hall </td>
-              <td className="text-center align-middle">
-                Inbound/Outbound/Mail{' '}
-              </td>
-              <td className="text-center align-middle">Venta x día </td>
-              <td className="text-center align-middle">Venta indirecta </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Mens Fashion </td>
-              <td className="text-center align-middle">
-                Inbound/Outbound/Chat{' '}
-              </td>
-              <td className="text-center align-middle">Monto </td>
-              <td className="text-center align-middle">SLA </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Vicky Form </td>
-              <td className="text-center align-middle">
-                Inbound/Outbound/Chat{' '}
-              </td>
-              <td className="text-center align-middle">Monto </td>
-              <td className="text-center align-middle">Tipificación </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Price Shoes </td>
-              <td className="text-center align-middle">Inbound </td>
-              <td className="text-center align-middle">Monto </td>
-              <td className="text-center align-middle">Cartera </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Price Shoes Back Office </td>
-              <td className="text-center align-middle">Mail </td>
-              <td className="text-center align-middle">Monto </td>
-              <td className="text-center align-middle">Cartera </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Price Shoes WhatsApp </td>
-              <td className="text-center align-middle">Wa </td>
-              <td className="text-center align-middle">Monto </td>
-              <td className="text-center align-middle">Cartera </td>
-            </tr>
-            <tr>
-              <td className="align-middle">Sin Delantal </td>
-              <td className="text-center align-middle">
-                Inbound/Account Manager/Key Account{' '}
-              </td>
-              <td className="text-center align-middle">Registro x hora </td>
-              <td className="text-center align-middle">-</td>
-            </tr>
-            <tr>
-              <td className="align-middle">VIPS </td>
-              <td className="text-center align-middle"> Inbound/outbound </td>
-              <td className="text-center align-middle">Ticket Promedio </td>
-              <td className="text-center align-middle">AHT</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Gana Mexico </td>
-              <td className="text-center align-middle"> Inbound/backoffice </td>
-              <td className="text-center align-middle">Tipificación </td>
-              <td className="text-center align-middle">AHT</td>
-            </tr>
-            <tr>
-              <td className="align-middle">INEA </td>
-              <td className="text-center align-middle"> Inbound </td>
-              <td className="text-center align-middle">Tipificación </td>
-              <td className="text-center align-middle">AHT</td>
-            </tr>
-            <tr>
-              <td className="align-middle">OXXO </td>
-              <td className="text-center align-middle">Inbound </td>
-              <td className="text-center align-middle">Tipificación </td>
-              <td className="text-center align-middle">Reprocesos</td>
-            </tr>
-            <tr>
-              <td className="align-middle">TCL </td>
-              <td className="text-center align-middle">
-                Inbound/backoffice/Wa{' '}
-              </td>
-              <td className="text-center align-middle">Tipificación </td>
-              <td className="text-center align-middle">AHT</td>
-            </tr>
-            <tr>
-              <td className="align-middle">Televisa </td>
-              <td className="text-center align-middle"> Inbound/outbound </td>
-              <td className="text-center align-middle">VPH </td>
-              <td className="text-center align-middle">Marcaciones x hora</td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive">
+            <thead>
+              <tr>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Campaña</strong>
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Tipo de campaña </strong>
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Indicador Principal </strong>
+                </th>
+                <th
+                  colspan=""
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Indicador Secundario</strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="align-middle">Altan Redes</td>
+                <td className="text-center align-middle">Outbound </td>
+                <td className="text-center align-middle">Satisfacción</td>
+                <td className="text-center align-middle">Tipificación</td>
+              </tr>
+              <tr>
+                <td className="align-middle">America Movil </td>
+                <td className="text-center align-middle">Inbound </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Buongiorno </td>
+                <td className="text-center align-middle"> Inbound </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Satisfacción </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Castrol </td>
+                <td className="text-center align-middle">
+                  Inbound/Outbound/Mail{' '}
+                </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Singer </td>
+                <td className="text-center align-middle">
+                    Inbound/mail/backoff/Wa{' '}
+                </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Televia Pagos </td>
+                <td className="text-center align-middle">Mail </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Televia SAC </td>
+                <td className="text-center align-middle">Inbound </td>
+                <td className="text-center align-middle">AHT </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Televia Backoffice </td>
+                <td className="text-center align-middle">Backoffice </td>
+                <td className="text-center align-middle">Tipificación </td>
+                <td className="text-center align-middle">QA Tipi </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Televia Whatsapp </td>
+                <td className="text-center align-middle">Wa </td>
+                <td className="text-center align-middle">Tip Whats ATC </td>
+                <td className="text-center align-middle">AHT Whats ATC </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Edenred </td>
+                <td className="text-center align-middle">Outbound </td>
+                <td className="text-center align-middle">Citas </td>
+                <td className="text-center align-middle">Talk Time </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Conde Nast </td>
+                <td className="text-center align-middle">
+                  Inbound/Outbound/Mail/Wa{' '}
+                </td>
+                <td className="text-center align-middle">Conversión IN </td>
+                <td className="text-center align-middle">Conversión OUT </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Harmon Hall </td>
+                <td className="text-center align-middle">
+                  Inbound/Outbound/Mail{' '}
+                </td>
+                <td className="text-center align-middle">Venta x día </td>
+                <td className="text-center align-middle">Venta indirecta </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Mens Fashion </td>
+                <td className="text-center align-middle">
+                  Inbound/Outbound/Chat{' '}
+                </td>
+                <td className="text-center align-middle">Monto </td>
+                <td className="text-center align-middle">SLA </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Vicky Form </td>
+                <td className="text-center align-middle">
+                  Inbound/Outbound/Chat{' '}
+                </td>
+                <td className="text-center align-middle">Monto </td>
+                <td className="text-center align-middle">Tipificación </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Price Shoes </td>
+                <td className="text-center align-middle">Inbound </td>
+                <td className="text-center align-middle">Monto </td>
+                <td className="text-center align-middle">Cartera </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Price Shoes Back Office </td>
+                <td className="text-center align-middle">Mail </td>
+                <td className="text-center align-middle">Monto </td>
+                <td className="text-center align-middle">Cartera </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Price Shoes WhatsApp </td>
+                <td className="text-center align-middle">Wa </td>
+                <td className="text-center align-middle">Monto </td>
+                <td className="text-center align-middle">Cartera </td>
+              </tr>
+              <tr>
+                <td className="align-middle">Sin Delantal </td>
+                <td className="text-center align-middle">
+                  Inbound/Account Manager/Key Account{' '}
+                </td>
+                <td className="text-center align-middle">Registro x hora </td>
+                <td className="text-center align-middle">-</td>
+              </tr>
+              <tr>
+                <td className="align-middle">VIPS </td>
+                <td className="text-center align-middle"> Inbound/outbound </td>
+                <td className="text-center align-middle">Ticket Promedio </td>
+                <td className="text-center align-middle">AHT</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Gana Mexico </td>
+                <td className="text-center align-middle">
+                  {' '}
+                  Inbound/backoffice{' '}
+                </td>
+                <td className="text-center align-middle">Tipificación </td>
+                <td className="text-center align-middle">AHT</td>
+              </tr>
+              <tr>
+                <td className="align-middle">INEA </td>
+                <td className="text-center align-middle"> Inbound </td>
+                <td className="text-center align-middle">Tipificación </td>
+                <td className="text-center align-middle">AHT</td>
+              </tr>
+              <tr>
+                <td className="align-middle">OXXO </td>
+                <td className="text-center align-middle">Inbound </td>
+                <td className="text-center align-middle">Tipificación </td>
+                <td className="text-center align-middle">Reprocesos</td>
+              </tr>
+              <tr>
+                <td className="align-middle">TCL </td>
+                <td className="text-center align-middle">
+                  Inbound/backoffice/Wa{' '}
+                </td>
+                <td className="text-center align-middle">Tipificación </td>
+                <td className="text-center align-middle">AHT</td>
+              </tr>
+              <tr>
+                <td className="align-middle">Televisa </td>
+                <td className="text-center align-middle"> Inbound/outbound </td>
+                <td className="text-center align-middle">VPH </td>
+                <td className="text-center align-middle">Marcaciones x hora</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
@@ -3278,39 +3313,41 @@ class TablaControlCambios extends Component {
   render() {
     return (
       <Col xs="12" className="centrado-fila">
-        <table className="table table-bordered table-responsive ">
-          <thead>
-            <tr>
-              <th
-                colspan="4"
-                style={{ border: 'solid' }}
-                scope="col"
-                className="bg-secondary text-white text-center "
-              >
-                <strong>Cambios</strong>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="align-middle text-center">Revisión anterior</td>
-              <td className="text-center align-middle">Punto afectadas </td>
-              <td className="text-center align-middle">
-                Descripción de modificación
-              </td>
-              <td className="text-center align-middle">Fecha</td>
-            </tr>
-            <tr>
-              <td className="align-middle text-center">01 </td>
-              <td className="text-center align-middle">Estructura </td>
-              <td className="text-justify align-middle">
-                Se genera el documento donde se describe la metodología a
-                utilizar en el área de calidad{' '}
-              </td>
-              <td className="text-center align-middle">agosto 2019 </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <table className="table table-bordered table-responsive ">
+            <thead>
+              <tr>
+                <th
+                  colspan="4"
+                  style={{ border: 'solid' }}
+                  scope="col"
+                  className="bg-secondary text-white text-center "
+                >
+                  <strong>Cambios</strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="align-middle text-center">Revisión anterior</td>
+                <td className="text-center align-middle">Punto afectadas </td>
+                <td className="text-center align-middle">
+                  Descripción de modificación
+                </td>
+                <td className="text-center align-middle">Fecha</td>
+              </tr>
+              <tr>
+                <td className="align-middle text-center">01 </td>
+                <td className="text-center align-middle">Estructura </td>
+                <td className="text-justify align-middle">
+                  Se genera el documento donde se describe la metodología a
+                  utilizar en el área de calidad{' '}
+                </td>
+                <td className="text-center align-middle">agosto 2019 </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </Col>
     )
   }
