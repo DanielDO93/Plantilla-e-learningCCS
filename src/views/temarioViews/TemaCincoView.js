@@ -144,7 +144,7 @@ class TemaDosView extends Component {
                   </TabPane>
                   <TabPane tabId="1">
                     <Row>
-                      <Col sm="12 centrado-fila">
+                      <Col sm="12 " className="text-justify" centrado-fila>
                         <ul>
                           <li>
                             1.1. El analista ingresa al sistema ACD y elige
@@ -160,7 +160,7 @@ class TemaDosView extends Component {
                             el tipo de monitoreo de acuerdo con la siguiente
                             tabla.
                           </li>
-                          <div className="centrado-fila">
+                          <div className="centrado-fila mt-3">
                             <TablaTipoMotivo />
                           </div>
                           <li>
@@ -279,7 +279,7 @@ class TemaDosView extends Component {
                   <TabPane tabId="2">
                     <Row>
                       <Col xs="12 " className="centrado-fila">
-                        <Col xs="6">
+                        <Col xs="12" sm="6" className="text-justify">
                           <p>
                             Para poder realizar la retroalimentación el agente
                             deberá pausarse y se notifica a través del correo a
@@ -291,7 +291,7 @@ class TemaDosView extends Component {
                             tiempo que durará la retroalimentación:
                           </p>
                         </Col>
-                        <Col xs="6">
+                        <Col xs="12" sm="6">
                           <img
                             src={temaCincoView}
                             style={{ width: 360 }}
@@ -309,7 +309,7 @@ class TemaDosView extends Component {
                   </TabPane>
                   <TabPane tabId="3">
                     <Row>
-                      <Col sm="12">
+                      <Col sm="12" className="text-justify">
                         <p>
                           Este método de retroalimentación se aplicará siempre y
                           cuando el resultado de la evaluación sea mayor al 80%.
@@ -361,7 +361,7 @@ class TemaDosView extends Component {
                   </TabPane>
                   <TabPane tabId="4">
                     <Row>
-                      <Col sm="12">
+                      <Col sm="12" className="text-justify">
                         <p>
                           La calificación debe ser igual o menor a 79.9% y se
                           deberá retroalimentar de inmediato al agente
