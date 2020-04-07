@@ -180,8 +180,7 @@ td,th{
 	  }
 
 	  .btnFocus:focus {
-		background: yellow;
-		color: blue;
+		background-color: yellow;
 	}
 
 
