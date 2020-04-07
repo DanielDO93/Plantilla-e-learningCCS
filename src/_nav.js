@@ -25,30 +25,37 @@ export default {
           icon: 'icon-graduation',
         },
         {
-          name: 'Tema Uno',
+          name: 'Definiciones',
           url: '/temarioViews/TemaUnoView',
           icon: 'icon-note',
         },
         {
-          name: 'Tema Dos',
+          name: 'Lineamientos generales de la Metodología P 1',
           url: '/temarioViews/TemaDosView',
           icon: 'icon-note',
         },
         {
-          name: 'Actividad',
-          url: '/temarioViews/ActividadView',
-          icon: 'icon-puzzle',
+          name: 'Lineamientos generales de la Metodología P 2',
+          url: '/temarioViews/TemaTresView',
+          icon: 'icon-note',
         },
         {
-          name: 'Conclusión',
-          url: '/temarioViews/ConclusionView',
-          icon: 'icon-bubbles',
+          name: 'Lineamientos generales de la Metodología P 3',
+          url: '/temarioViews/TemaCuatroView',
+          icon: 'icon-note',
         },
         {
-          name: 'Recapitulacón',
-          url: '/temarioViews/RecapitulacionView',
-          icon: 'icon-trophy',
+          name: 'Descripción del procedimiento',
+          url: '/temarioViews/TemaCincoView',
+          icon: 'icon-note',
         },
+        {
+          name: 'Seguimiento de operaciones',
+          url: '/temarioViews/TemaSeisView',
+          icon: 'icon-note',
+        },
+       
+        
       ],
         
         
