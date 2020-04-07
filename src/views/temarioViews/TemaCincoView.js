@@ -208,7 +208,7 @@ class TemaDosView extends Component {
                             }
                             body={
                               this.state.modalIndex === 5 ? (
-                                <di>
+                                <di className="text-justify">
                                   <ul>
                                     <li>
                                       {' '}
@@ -227,7 +227,7 @@ class TemaDosView extends Component {
                                   </ul>
                                 </di>
                               ) : this.state.modalIndex === 6 ? (
-                                <div>
+                                <div className="text-justify">
                                   <ol>
                                     <li>
                                       Cuando el analista detecte un error fatal
