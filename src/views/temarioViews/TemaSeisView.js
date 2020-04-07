@@ -21,7 +21,7 @@ class TemaSeisView extends Component {
       <div className="animated fadeIn pt-3">
         <Card>
           <CardHeader className="text-left">
-            <h3>Lineamientos generales de la Metodología</h3>
+            <h3>Seguimiento de operaciones</h3>
           </CardHeader>
           <CardBody className="">
             <Row>
