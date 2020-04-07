@@ -230,7 +230,7 @@ class TemaSeisView extends Component {
                                 <li> Mystery</li>
                               </ul>
                             </Col>
-                            <Col xs="12" sm="6" md="5" xl="4">
+                            <Col xs="12" sm="6" md="5" xl="4" className="mb-4">
                               <img
                                 src={temaTresView}
                                 style={{ width: 360 }}
