@@ -22,7 +22,7 @@ class TemaDosView extends Component {
           <CardBody className="">
             <Row>
               <Col xs="12 centrado-fila">
-                <Col xs="12" sm="12" md="6">
+                <Col xs="12" sm="12" md="6" className="text-justify">
                   <ul>
                     <li>
                       Todas las guías de monitoreo se generan bajo el esquema de
@@ -53,7 +53,7 @@ class TemaDosView extends Component {
                 </Col>
               </Col>
 
-              <Col xs="12 centrado-fila mt-4">
+              <Col xs="12 " className="text-justify centrado-fila mt-4">
                 <ul>
                   <li>
                     Lo monitoreos en línea se realizarán en PSup o con diadema
@@ -93,7 +93,7 @@ class TemaDosView extends Component {
                 </Col>
               </Col>
 
-              <Col xs="12">
+              <Col xs="12" className="text-justify">
                 <ul>
                   <li>
                     De acuerdo con el promedio que haya obtenido en la Guía de
