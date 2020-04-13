@@ -9,7 +9,7 @@ class PresentacionView extends Component {
 
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn">
             <Card>
               <CardHeader className="text-justify">
                 <h3>Presentación</h3>
