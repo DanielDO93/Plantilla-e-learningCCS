@@ -49,7 +49,7 @@ class TemaDosView extends Component {
 
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn">
         <Card>
           <CardHeader className="text-left">
             <h3>Descripción del procedimiento</h3>
@@ -60,78 +60,83 @@ class TemaDosView extends Component {
                 <Nav tabs className="text-center">
                   <NavItem className="d-flex justify-content-center">
                     <NavLink
+                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '1',
                         }),
-                        'btn-dark btn text-light btnAct')
+                        ' btn text-light btnAct')
+                       
                       }
                       onClick={() => {
                         this.toggle('1')
                       }}
                     >
                       <div className=" text-center ">
-                        <p className="pt-3 mb-2">
+                        
                           <b>1. Monitoreo</b>
-                        </p>
+                      
                       </div>
                     </NavLink>
                   </NavItem>
 
                   <NavItem>
                     <NavLink
+                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '2',
                         }),
-                        'btn-dark btn text-light btnAct')
+                        ' btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('2')
                       }}
                     >
                       <div color="primary" className=" text-center">
-                        <p className="pt-3 mb-2">
+                        
                           <b>2. Retroalimentación</b>
-                        </p>
+                      
                       </div>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
+                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '3',
                         }),
-                        'btn-dark btn text-light btnAct')
+                        ' btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('3')
                       }}
                     >
                       <div color="primary" className=" text-center">
-                        <p className="pt-3 mb-2">
+                        
                           <b>2.1. Coaching</b>
-                        </p>
+                      
                       </div>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
+                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '4',
                         }),
-                        'btn-dark btn text-light btnAct')
+                        ' btn text-light btnAct')
                       }
                       onClick={() => {
                         this.toggle('4')
                       }}
                     >
                       <div color="primary" className=" text-center">
-                        <p className="pt-3 mb-2">
+                        
                           <b>2.2. FODA</b>
-                        </p>
+                        
                       </div>
                     </NavLink>
                   </NavItem>
