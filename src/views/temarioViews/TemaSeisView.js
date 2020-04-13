@@ -82,7 +82,7 @@ class TemaSeisView extends Component {
                       </div>
                     </Accordion.Collapse>
                   </div>
-                  <Col className=" btn bg-fondo-btn " style={{ padding: '0' }}>
+                  <Col className=" btn bg-fondo-btn bordeAcordeon" style={{ padding: '0' }}>
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
                       <span className="text-light"> Elaboración reportes </span>
                     </Accordion.Toggle>
@@ -152,7 +152,7 @@ class TemaSeisView extends Component {
                       </div>
                     </Accordion.Collapse>
                   </div>
-                  <Col className=" btn bg-fondo-btn " style={{ padding: '0' }}>
+                  <Col className=" btn bg-fondo-btn bordeAcordeon " style={{ padding: '0' }}>
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
                       <span className="text-light">Tripartita</span>
                     </Accordion.Toggle>
@@ -197,7 +197,7 @@ class TemaSeisView extends Component {
                       </div>
                     </Accordion.Collapse>
                   </div>
-                  <Col className=" btn bg-fondo-btn " style={{ padding: '0' }}>
+                  <Col className=" btn bg-fondo-btn bordeAcordeon " style={{ padding: '0' }}>
                     <Accordion.Toggle as={Button} variant="link" eventKey="3">
                       <span className="text-light">
                         Actividades adicionales{' '}
@@ -243,7 +243,7 @@ class TemaSeisView extends Component {
                       </div>
                     </Accordion.Collapse>
                   </div>
-                  <Col className=" btn bg-fondo-btn " style={{ padding: '0' }}>
+                  <Col className=" btn bg-fondo-btn bordeAcordeon" style={{ padding: '0' }}>
                     <Accordion.Toggle as={Button} variant="link" eventKey="4">
                       <span className="text-light">ANEXOS </span>
                     </Accordion.Toggle>
@@ -257,7 +257,7 @@ class TemaSeisView extends Component {
                       </div>
                     </Accordion.Collapse>
                   </div>
-                  <Col className=" btn bg-fondo-btn " style={{ padding: '0' }}>
+                  <Col className=" btn bg-fondo-btn bordeAcordeon" style={{ padding: '0' }}>
                     <Accordion.Toggle as={Button} variant="link" eventKey="5">
                       <span className="text-light">Control de cambios </span>
                     </Accordion.Toggle>
