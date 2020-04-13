@@ -11,8 +11,7 @@
 }	
 
 .bordeAcordeon{
-	border: #29363d;
-	border: solid 0.5px;
+	border-bottom: 1px solid #29363d !important;
 }
 
 
