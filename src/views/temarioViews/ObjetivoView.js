@@ -10,7 +10,7 @@ class ObjetivoView extends Component {
 
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn">
             <Card>
               <CardHeader className="text-left">
                 <h3>Objetivo</h3>
