@@ -44,7 +44,7 @@ class TemaDosView extends Component {
   }
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn ">
         <Card>
         <CardHeader className="text-left">
           <h3>Lineamientos generales de la Metodología</h3>
@@ -53,7 +53,7 @@ class TemaDosView extends Component {
           <Row>
             <Col xs="12" style={{ padding: '0' }}>
               <Accordion>
-                <Col className=" btn btn-dark ">
+                <Col className=" btn  bg-fondo-btn " style={{backgroundColor:'#737276', padding:'0px',}}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="0" >
                     <span className="text-light ">In Bound</span>
                   </Accordion.Toggle>
@@ -160,7 +160,7 @@ class TemaDosView extends Component {
                     </Row>
                   </Accordion.Collapse>
                 </div>
-                <Col className=" btn btn-dark " style={{ padding: '0' }}>
+                <Col className=" btn btn-dark " style={{ padding: '0',backgroundColor:'#737276'}}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="1">
                     <span className="text-light">Out Bound</span>
                   </Accordion.Toggle>
@@ -259,7 +259,7 @@ class TemaDosView extends Component {
                     </Row>
                   </Accordion.Collapse>
                 </div>
-                <Col className=" btn btn-dark " style={{ padding: '0' }}>
+                <Col className=" btn btn-dark " style={{ padding: '0', backgroundColor:'#737276' }}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="2">
                     <span className="text-light">Soporte</span>
                   </Accordion.Toggle>
@@ -358,7 +358,7 @@ class TemaDosView extends Component {
                     </Row>
                   </Accordion.Collapse>
                 </div>
-                <Col className="btn-dark  " style={{ padding: '0' }}>
+                <Col className="btn-dark  " style={{ padding: '0', backgroundColor:'#737276' }}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="3" className="">
                     <span className="text-light btnAct ">WhatsApp y Mails</span>
                   </Accordion.Toggle>
