@@ -1,19 +1,26 @@
 .bordeImagen{
-    border:6px double #737276;
-	border-radius: 20px 20px 0px 0px; 
-	box-shadow: 4px 4px 5px #333; 
-	-webkit-box-shadow: 3px 3px 3px #696969; 
-	-moz-box-shadow: 3px 3px 3px #696969;
-	-ms-box-shadow: 3px 3px 3px #696969;
-	background-color:#737276;
+    border:7px double #C8CED3;
+	border-radius: 20px 20px 20px 20px; 
+	
+	background-color:#C8CED3;
 	}
+
+.bg-fondo-btn{
+	background-color: #737276 !important;
+	color:white !important;
+}	
+
+.bordeAcordeon{
+	border: #29363d;
+	border: solid 0.5px;
+}
 
 
 .cajaA1{
-	border-bottom: solid 5px #c00327 !important;
-	border-top: solid 13px #c00327 !important;
-	border-left: solid 2px #c00327 !important;
-	border-right: solid 2px #c00327 !important;
+	border-bottom: solid 6px #c00327 !important;
+	border-top: solid 6px #c00327 !important;
+	border-left: solid 6px #c00327 !important;
+	border-right: solid 6px #c00327 !important;
 	border-radius: 10px 10px 10px 10px;
 	font-size: 16px;
 	background-color: rgba(255,255,255, 0.4);
@@ -23,10 +30,10 @@
 }
 
 .cajaA2{
-	border-bottom: solid 5px #b0afb4 !important;
-	border-top: solid 13px #b0afb4 !important;
-	border-left: solid 2px #b0afb4 !important;
-	border-right: solid 2px #b0afb4 !important;
+	border-bottom: solid 6px #b0afb4 !important;
+	border-top: solid 6px #b0afb4 !important;
+	border-left: solid 6px #b0afb4 !important;
+	border-right: solid 6px #b0afb4 !important;
 	border-radius: 10px 10px 10px 10px;
 	font-size: 16px;
 	background-color: rgba(255,255,255, 0.4);
@@ -35,10 +42,10 @@
 	/*border: 1px solid #b5ccf8;*/
 }
 .cajaA3{
-	border-bottom: solid 5px #737276 !important;
-	border-top: solid 13px #737276 !important;
-	border-left: solid 2px #737276 !important;
-	border-right: solid 2px #737276 !important;
+	border-bottom: solid 6px #737276 !important;
+	border-top: solid 6px #737276 !important;
+	border-left: solid 6px #737276 !important;
+	border-right: solid 6px #737276 !important;
 	border-radius: 10px 10px 10px 10px;
 	font-size: 16px;
 	background-color: rgba(255,255,255, 0.4);
