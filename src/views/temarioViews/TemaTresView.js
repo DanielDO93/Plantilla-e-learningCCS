@@ -33,7 +33,7 @@ class TemaDosView extends Component {
 
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn">
         <Card>
           <CardHeader className="text-left">
             <h3>Lineamientos generales de la Metodología</h3>
@@ -107,27 +107,28 @@ class TemaDosView extends Component {
               </Col>
               <Col xs="12" className="centrado-distribuido">
                 <Button
-                  className="btnAct"
+                  className="btnAct bg-fondo-btn"
                   style={{ width: '90px', height: '58px' }}
-                  color="dark"
+                  
                   onClick={() => this.toggleM(1)}
                 >
                   ATC
                 </Button>
 
                 <Button
-                className="btnAct"
+                
+                className="btnAct bg-fondo-btn"
                   style={{ width: '90px', height: '58px' }}
-                  color="dark"
+                
                   onClick={() => this.toggleM(2)}
                 >
                   VENTAS
                 </Button>
 
                 <Button
-                className="btnAct"
+                className="btnAct bg-fondo-btn"
                   style={{ width: '90px' }}
-                  color="dark"
+                  
                   onClick={() => this.toggleM(3)}
                 >
                   VENTAS OUT
