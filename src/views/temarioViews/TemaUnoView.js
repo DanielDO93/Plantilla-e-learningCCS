@@ -10,7 +10,7 @@ class TemaUnoView extends Component {
 
   render() {
     return (
-      <div className="animated fadeIn pt-3">
+      <div className="animated fadeIn">
         <Card>
           <CardHeader className="text-left">
             <h3>Definiciones</h3>
@@ -18,7 +18,7 @@ class TemaUnoView extends Component {
           <CardBody className="">
             <Row>
               <Col xs="12">
-                <Carousel className="bg-dark pt-2 " interval={50000000}>
+                <Carousel className="bg-fondo-btn pt-2 " interval={50000000}>
                   <Carousel.Item className="pl-4">
                     <Row>
                       <Col xs="12" className="mb-4">
