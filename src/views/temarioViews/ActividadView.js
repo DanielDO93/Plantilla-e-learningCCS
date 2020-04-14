@@ -7,6 +7,7 @@ import {
   Row
 } from 'reactstrap';
 import withAuth from '../../services/withAuth';
+import List2 from './componentsExtras/dragdrog';
 
 class ActividadView extends Component {
 
@@ -26,7 +27,7 @@ class ActividadView extends Component {
                 Texto1! ActividadView
               </CardHeader>
               <CardBody className="text-center">
-                  contenido texto ActividadView
+             
               </CardBody>
             </Card>
           </Col>
@@ -35,5 +36,5 @@ class ActividadView extends Component {
     );
   }
 }
-export default withAuth(ActividadView)
+export default ActividadView
 
