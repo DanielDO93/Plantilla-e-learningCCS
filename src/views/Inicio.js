@@ -13,7 +13,7 @@ import TemaTresView from './temarioViews/TemaTresView'
 import TemaCuatroView from './temarioViews/TemaCuatroView'
 import TemaCincoView from './temarioViews/TemaCincoView'
 import TemaSeisView from './temarioViews/TemaSeisView'
-//import ActividadView from './temarioViews/ActividadView'
+import ActividadView from './temarioViews/ActividadView'
 //import ConclusionView from './temarioViews/ConclusionView'
 //import RecapitulacionView from './temarioViews/RecapitulacionView'
 
@@ -59,10 +59,12 @@ class Inicio extends Component {
                   <TemaCincoView />
                 ) : this.state.index === 8 ? (
                   <TemaSeisView />
+                 ) : this.state.index === 9 ? (
+                    <ActividadView />
                 ) : null}
                 <br />
               </Col>
-              <Navegador handleNavigation={this.setIndex} maxIndex={8} />
+              <Navegador handleNavigation={this.setIndex} maxIndex={10} />
             </Card>
           </Col>
         </Row>
